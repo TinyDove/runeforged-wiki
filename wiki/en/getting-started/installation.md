@@ -8,7 +8,7 @@
 | Mod loader | A Fabric Loader build compatible with the selected Minecraft version |
 | Fabric API | A Fabric API build compatible with the selected Minecraft version |
 | Java | 25 or newer |
-| Runeforged | 0.2.0 |
+| Runeforged | 0.2.1 |
 
 JEI and Mod Menu are optional compatibility mods. JEI can display recipes; whether a Rune Stone can affect an item depends on its quality, affix count, and special state.
 

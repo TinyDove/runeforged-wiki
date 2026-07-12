@@ -8,7 +8,7 @@
 | 模组加载器 | 对应 Minecraft 版本可用的 Fabric Loader |
 | Fabric API | 对应 Minecraft 版本可用的 Fabric API |
 | Java | 25 或更高 |
-| Runeforged | 0.2.0 |
+| Runeforged | 0.2.1 |
 
 JEI 和 Mod Menu 是可选兼容模组。JEI 可用于查看配方；符文石能否作用于某件装备，取决于装备品质、词条数量和特殊状态。
 

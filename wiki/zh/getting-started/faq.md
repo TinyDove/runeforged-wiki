@@ -2,7 +2,7 @@
 
 ## 支持哪些 Minecraft 版本？
 
-Runeforged 0.2.0 支持 Minecraft 26.1 与 26.2 的全部版本。下载时应选择与 Minecraft 版本对应的模组文件和 Fabric API。
+Runeforged 0.2.1 支持 Minecraft 26.1 与 26.2 的全部版本。下载时应选择与 Minecraft 版本对应的模组文件和 Fabric API。
 
 ## 客户端和服务器都需要安装吗？
 
