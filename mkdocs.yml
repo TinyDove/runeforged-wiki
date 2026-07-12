@@ -47,10 +47,12 @@ plugins:
             Equipment: 装备系统
             Equipment Quality & Affixes: 品质与词条
             Equipment Currency: 装备通货
+            Infusion: 灌注系统
+            Cursed Equipment: 诅咒系统
             Weapon Transmutation: 武器质变
             Special Weapon Variants: 特殊武器变体
             Rune-Cursed Weapons: 符文诅咒武器
-            Alien Orb: 异化宝石
+            Alien Gem: 异化宝石
             Dropped Equipment Protection: 装备掉落保护
             Combat & Monsters: 战斗与怪物
             Damage Calculation: 伤害结算
@@ -67,6 +69,7 @@ plugins:
             Weapon Affixes: 全武器词条表
             Armor Affixes: 全护甲词条表
             Equipment Currency Reference: 装备通货速查
+            Player Commands: 玩家指令
             Default Configuration: 默认配置
 
 markdown_extensions:
@@ -89,10 +92,12 @@ nav:
   - Equipment:
       - Equipment Quality & Affixes: equipment/quality-and-affixes.md
       - Equipment Currency: equipment/currency-workflow.md
+      - Infusion: equipment/infusion.md
+      - Cursed Equipment: equipment/curses.md
       - Weapon Transmutation: equipment/weapon-transmutation.md
       - Special Weapon Variants: equipment/special-weapon-variants.md
       - Rune-Cursed Weapons: equipment/rune-cursed-weapons.md
-      - Alien Orb: equipment/alien-orb.md
+      - Alien Gem: equipment/alien-orb.md
       - Dropped Equipment Protection: equipment/drop-protection.md
   - Combat & Monsters:
       - Damage Calculation: combat/damage-pipeline.md
@@ -109,4 +114,5 @@ nav:
       - Weapon Affixes: reference/weapon-affixes.md
       - Armor Affixes: reference/armor-affixes.md
       - Equipment Currency Reference: reference/currencies.md
+      - Player Commands: reference/commands.md
       - Default Configuration: reference/default-config.md

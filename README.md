@@ -1,8 +1,8 @@
 # Runeforged Wiki
 
-Independent bilingual player wiki for Runeforged. The complete documentation is currently available in Simplified Chinese; the English structure is ready for translation.
+Independent bilingual player wiki for Runeforged, with complete English and Simplified Chinese documentation.
 
-Runeforged 独立双语玩家 Wiki。简体中文正文已建立，英文区已预留完整翻译结构。
+Runeforged 独立双语玩家 Wiki，提供完整英文与简体中文文档。
 
 - 网站：https://tinydove.github.io/runeforged-wiki/
 - 本地预览：`mkdocs serve`

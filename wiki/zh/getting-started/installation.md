@@ -25,4 +25,4 @@ Runeforged 的环境声明为客户端和服务端均需要。多人游戏中应
 - `runeforged-monsters.json`
 - `runeforged-compat.json`
 
-服务器数值与 Wiki 不一致时，先检查这些文件。默认情况下，版本升级不会强制覆盖玩家已有配置。
+服务器数值与 Wiki 不一致时，先检查这些文件。
