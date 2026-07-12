@@ -121,6 +121,8 @@ Four copies of the same base currency can craft one targeted version. Non-crafte
 
 Some targeted Shaping, Reinforcement, and Tempering Stones also lock the affix Tier. Ascension Stones do not have a Sealed version.
 
+In item names, targeted Shaping, Reinforcement, and Tempering Stones appear as Advanced Shaping Stone, Advanced Reinforcement Stone, and Advanced Tempering Stone. Tier-locked targeted versions appear as Sealed Shaping Stone, Sealed Reinforcement Stone, and Sealed Tempering Stone.
+
 ## Celestial Currency
 
 | Currency | Difference from the base version |

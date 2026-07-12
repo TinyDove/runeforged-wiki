@@ -9,10 +9,10 @@ Wiki 中的概率和成长均采用新安装时的默认设置。服务器可能
 | 配置 | 默认值 |
 | --- | --- |
 | `welcome_message_mode`（欢迎消息） | `first_join_once`（首次加入显示一次） |
-| `damage_popups_enabled`（伤害弹字） | 开启 |
-| `normal_monster_nameplates_enabled`（普通怪物名牌） | 开启 |
-| `elite_monster_nameplates_enabled`（精英怪物名牌） | 开启 |
-| `elite_boss_bars_enabled`（精英 Boss 条） | 开启 |
+| `damage_popups_enabled`（伤害数字） | 开启 |
+| `normal_monster_nameplates_enabled`（普通怪名条） | 开启 |
+| `elite_monster_nameplates_enabled`（精英怪名条） | 开启 |
+| `elite_boss_bars_enabled`（精英首领条） | 开启 |
 
 ### 怪物进度与精英
 

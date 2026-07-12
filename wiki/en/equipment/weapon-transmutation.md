@@ -26,8 +26,8 @@ To remove a Transmutation, place a Reforging Stone in both the template and addi
 | Sharp | Reinforcement Stone | `-40%` base Physical Damage; `+50%` Physical Damage |
 | Pure | Stripping Stone | `50%` Physical converted to Holy; `-25%` Physical Damage; `-75%` Fire/Frost/Lightning Damage |
 | Order | Tempering Stone | When several damage types are present: highest type `-25%`, lowest type `+50%` |
-| Mystery | Alien Gem | `+20%` Critical Strike Chance; non-critical hits `-20%` Elemental Damage; critical hits `-20%` Physical Damage |
-| Origin | Sealed Gem | Highest element `+15%`; all other damage `-30%` |
+| Mystery | Alien Gem | `+25%` Critical Strike Chance; non-critical hits `-20%` Elemental Damage; critical hits `-20%` Physical Damage |
+| Origin | Sealed Gem | Highest element `+20%`; all other damage `-40%` |
 | Triad | Infusion Gem | `-50%` Physical Damage; rotating Fire–Frost / Frost–Lightning / Lightning–Fire pair gains `+25%` |
 
 ## Order and Triad
