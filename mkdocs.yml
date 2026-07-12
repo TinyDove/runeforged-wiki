@@ -44,9 +44,18 @@ plugins:
             Getting Started: 基础信息
             Installation & Compatibility: 安装与兼容性
             Frequently Asked Questions: 常见问题
+            Quick Start: 快速上手
+            Reading Route: 阅读路线
+            Weapons & Skills: 武器与战技
+            World & Combat: 世界与战斗
+            Equipment Forging: 装备锻造
+            Special Weapon Systems: 特殊武器系统
+            Curses & Infusion: 诅咒与灌注
+            Legendary & Celestial Forging: 传说与天界锻造
             Equipment: 装备系统
             Equipment Quality & Affixes: 品质与词条
             Equipment Currency: 装备通货
+            Equipment Material Upgrade: 装备材质升阶
             Infusion: 灌注系统
             Cursed Equipment: 诅咒系统
             Weapon Transmutation: 武器质变
@@ -88,10 +97,19 @@ nav:
   - Home: index.md
   - Getting Started:
       - Installation & Compatibility: getting-started/installation.md
+      - Quick Start:
+          - Reading Route: getting-started/quick-start/index.md
+          - Weapons & Skills: getting-started/quick-start/weapons.md
+          - World & Combat: getting-started/quick-start/world-and-combat.md
+          - Equipment Forging: getting-started/quick-start/equipment-forging.md
+          - Special Weapon Systems: getting-started/quick-start/special-weapons.md
+          - Curses & Infusion: getting-started/quick-start/curses-and-infusion.md
+          - Legendary & Celestial Forging: getting-started/quick-start/legendary-and-celestial.md
       - Frequently Asked Questions: getting-started/faq.md
   - Equipment:
       - Equipment Quality & Affixes: equipment/quality-and-affixes.md
       - Equipment Currency: equipment/currency-workflow.md
+      - Equipment Material Upgrade: equipment/material-upgrade.md
       - Infusion: equipment/infusion.md
       - Cursed Equipment: equipment/curses.md
       - Weapon Transmutation: equipment/weapon-transmutation.md

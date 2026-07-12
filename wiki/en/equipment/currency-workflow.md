@@ -39,6 +39,8 @@ It cannot be used on Legendary equipment, any Cursed equipment (including Alien,
 | 4 | 75% |
 | 5 or more | 100% |
 
+At a Smithing Table, a Reforging Stone also has a separate use: combine it with target equipment and a higher-material blank weapon of the same family or armor of the same slot for [Equipment Material Upgrade](material-upgrade.md). Material Upgrade does not perform the clearing or repair operation described above.
+
 ## Stripping Stone
 
 Removes one random regular affix. The item drops from Rare to Magic below four regular affixes. Removing its final regular affix clears mutable Runeforged properties, while Sealed Affixes remain.
@@ -105,12 +107,12 @@ Some targeted Shaping, Reinforcement, and Tempering Stones also lock the affix T
 
 | Currency | Difference from the base version |
 | --- | --- |
-| Celestial Tempering Stone | Adds a T1-or-higher affix; targeted or Sealed special stones retain their own displayed rule |
+| Celestial Tempering Stone | Adds at least T1; has a `10%` chance to attempt an eligible regular T0 and falls back to T1 when none is available; targeted or Sealed versions follow their displayed rule |
 | Celestial Stripping Stone | Removes the bottom regular affix in the displayed list |
 | Celestial Alien Gem | Fills regular affixes by the Alienation rule, then makes `4–6` random-change rolls |
 | Celestial Sealed Gem | Creates three curse-area affixes with at least one T1; a reroll rebuilds the entire curse area and negative curse |
 | Celestial Infusion Gem | Creates an Infusion Affix regardless of progress; chooses one affix and rolls its value three times, keeping the best |
-| Celestial Penance Stone | Replaces the top displayed affix among those tied for the lowest Tier |
+| Celestial Penance Stone | Replaces the top displayed affix among those tied for the lowest Tier; the new affix has a `5%` chance to attempt an eligible regular T0 |
 | Celestial Edict Stone | Rerolls only the regular affix with the lowest relative roll within its Tier; preserves all other regular and Legendary Affixes |
 | Celestial Ascension Stone | Turns Legendary equipment Mythic and raises its preserved Legendary Affix to fixed maximum-value T0 |
 

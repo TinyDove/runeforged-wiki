@@ -6,11 +6,13 @@ Runeforged is a vanilla-plus ARPG mod centered on equipment growth. Equipment ca
 
 This wiki documents items, operations, mechanics, and default data. Exact effects, eligible equipment, conditions, and probabilities are listed in the relevant system pages and data tables.
 
+For a first reading, begin with [Quick Start](getting-started/quick-start/index.md). It introduces the system framework and links to every complete rule page.
+
 ## Contents
 
 | System | Contents | Pages |
 | --- | --- | --- |
-| Equipment | Quality, Affix Tiers, Infusion, and Cursed equipment | [Quality & Affixes](equipment/quality-and-affixes.md), [Infusion](equipment/infusion.md), [Cursed Equipment](equipment/curses.md) |
+| Equipment | Quality, Affix Tiers, Material Upgrade, Infusion, and Cursed equipment | [Quality & Affixes](equipment/quality-and-affixes.md), [Material Upgrade](equipment/material-upgrade.md), [Infusion](equipment/infusion.md), [Cursed Equipment](equipment/curses.md) |
 | Currency | How each Rune Stone is used and what it changes | [Equipment Currency](equipment/currency-workflow.md) |
 | Weapons | Transmutations, variants, Rune-Cursed Weapons, and Weapon Skills | [Weapon Transmutation](equipment/weapon-transmutation.md), [Special Weapon Variants](equipment/special-weapon-variants.md), [Rune-Cursed Weapons](equipment/rune-cursed-weapons.md) |
 | Combat | Damage order, armor, resistance, elements, and status effects | [Damage Calculation](combat/damage-pipeline.md), [Elements & Resistances](combat/elements-and-resistances.md) |

@@ -17,6 +17,12 @@ Quality affects the chance of rolling a higher affix Tier, but does not guarante
 
 Regular affixes are ordered from T4 to T1. Some affixes do not have all four Tiers. Affixes with the same name and Tier may also roll different values; rerolling values does not change their name or Tier.
 
+### Regular T0 Affixes
+
+A regular affix that supports T1 can rarely break through to T0. It keeps the original affix name, eligible equipment, and conflict rules, occupies one regular-affix slot, and has a fixed value equal to `120%` of that affix's maximum T1 value.
+
+Regular T0 can appear on equipment from non-crafted sources such as monsters, chests, or fishing. Celestial Tempering Stones and Celestial Penance Stones can also produce one. Alien-specific and Legendary Affixes are not regular T0 affixes in this section.
+
 - [Weapon Affixes](../reference/weapon-affixes.md)
 - [Armor Affixes](../reference/armor-affixes.md)
 

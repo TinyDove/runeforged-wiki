@@ -6,11 +6,13 @@ Runeforged（符文锻造）是一个围绕装备成长构建的原版+ ARPG 模
 
 本 Wiki 记录模组物品、操作、机制和默认数据。各页面按模组系统组织；具体词条效果、适用对象、使用条件和概率写在对应系统或数据表中。
 
+第一次阅读可以从[快速上手](getting-started/quick-start/index.md)开始；它只介绍系统框架，并链接到各项完整规则。
+
 ## 内容索引
 
 | 系统 | 内容 | 页面 |
 | --- | --- | --- |
-| 装备 | 品质、词条 Tier、灌注与诅咒 | [品质与词条](equipment/quality-and-affixes.md)、[灌注系统](equipment/infusion.md)、[诅咒系统](equipment/curses.md) |
+| 装备 | 品质、词条 Tier、材质升阶、灌注与诅咒 | [品质与词条](equipment/quality-and-affixes.md)、[材质升阶](equipment/material-upgrade.md)、[灌注系统](equipment/infusion.md)、[诅咒系统](equipment/curses.md) |
 | 通货 | 塑形石等通货的用法、条件与结果 | [符文石与装备塑造](equipment/currency-workflow.md) |
 | 武器 | 质变、特殊变体、符文诅咒与战技 | [武器质变](equipment/weapon-transmutation.md)、[特殊武器变体](equipment/special-weapon-variants.md)、[符文诅咒武器](equipment/rune-cursed-weapons.md) |
 | 战斗 | 伤害顺序、护甲、抗性、元素与状态 | [伤害结算](combat/damage-pipeline.md)、[元素、抗性与状态](combat/elements-and-resistances.md) |
