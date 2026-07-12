@@ -8,7 +8,7 @@ This page lists Elite generation, scaling, rewards, and every Elite Affix.
 
 - Defeating the Ender Dragon adds `0.5` percentage points.
 - Giant variants double the chance.
-- One random Elite may exist per chunk by default; guaranteed Elites do not use this cap.
+- The random Elite chunk cap is disabled by default. If a server enables it, the base cap is `1` random Elite per chunk, with up to `1` extra slot for persistent random Elites; guaranteed Elites do not use this cap.
 - Wardens and mobs tagged as guaranteed Elites always become Elite. Ender Dragons, Withers, and Wardens have exactly three affixes.
 - Summoning Aura reinforcements cannot become Elite.
 

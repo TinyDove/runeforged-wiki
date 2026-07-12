@@ -8,11 +8,11 @@ Probabilities and scaling in this wiki use a fresh installation's defaults. A se
 
 | Setting | Default |
 | --- | --- |
-| Welcome message | Once on first join |
-| Damage numbers | Enabled |
-| Weakness hints | Enabled |
-| Monster nameplates | Enabled |
-| Extended equipment tooltips | Enabled |
+| `welcome_message_mode` (welcome message) | `first_join_once` |
+| `damage_popups_enabled` (damage popups) | Enabled |
+| `normal_monster_nameplates_enabled` (normal monster nameplates) | Enabled |
+| `elite_monster_nameplates_enabled` (Elite monster nameplates) | Enabled |
+| `elite_boss_bars_enabled` (Elite boss bars) | Enabled |
 
 ### Monster Progression and Elites
 
@@ -26,7 +26,9 @@ Probabilities and scaling in this wiki use a fresh installation's defaults. A se
 | Base Elite chance | 1.0% |
 | Elite chance per level | +0.02 percentage points |
 | Minimum Elite Affixes | 1 |
-| Base Elite chunk limit | 1 |
+| Random Elite chunk cap | Disabled |
+| Random Elite base chunk cap when enabled | 1 |
+| Extra persistent Elite allowance when enabled | 1 |
 | Elite chance level cap | 100 |
 | Maximum Elite Affixes | 4 |
 
