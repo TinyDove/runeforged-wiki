@@ -1,5 +1,5 @@
-site_name: Runeforged 中文 Wiki
-site_description: Runeforged 的中文玩家指南、机制说明与完整数据参考
+site_name: Runeforged Wiki
+site_description: Runeforged player wiki, mechanics, and data reference
 site_url: https://tinydove.github.io/runeforged-wiki/
 repo_url: https://github.com/TinyDove/runeforged-wiki
 repo_name: TinyDove/runeforged-wiki
@@ -8,7 +8,7 @@ strict: true
 
 theme:
   name: material
-  language: zh
+  language: en
   features:
     - navigation.tabs
     - navigation.sections
@@ -23,10 +23,51 @@ theme:
       accent: orange
 
 plugins:
-  - search:
-      lang:
-        - zh
-        - en
+  - search
+  - i18n:
+      docs_structure: folder
+      reconfigure_material: true
+      reconfigure_search: true
+      fallback_to_default: false
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+        - locale: zh
+          name: 简体中文
+          build: true
+          site_name: Runeforged 中文 Wiki
+          site_description: Runeforged 中文玩家 Wiki、机制说明与完整数据参考
+          nav_translations:
+            Home: 首页
+            Getting Started: 基础信息
+            Installation & Compatibility: 安装与兼容性
+            Frequently Asked Questions: 常见问题
+            Equipment: 装备系统
+            Equipment Quality & Affixes: 品质与词条
+            Equipment Currency: 装备通货
+            Weapon Transmutation: 武器质变
+            Special Weapon Variants: 特殊武器变体
+            Rune-Cursed Weapons: 符文诅咒武器
+            Alien Orb: 异化宝石
+            Dropped Equipment Protection: 装备掉落保护
+            Combat & Monsters: 战斗与怪物
+            Damage Calculation: 伤害结算
+            Elements, Resistances & Status Effects: 元素、抗性与状态
+            Weapon Skills & Offhand Attacks: 武器战技与副手攻击
+            Monster Levels: 怪物等级
+            Elite Monsters: 精英怪
+            Obtaining & Exploration: 获取与探索
+            Monster Drops: 怪物掉落
+            Chests & Trades: 宝箱与交易
+            Fishing: 钓鱼
+            Data Tables: 数据库
+            Overview: 数据说明
+            Weapon Affixes: 全武器词条表
+            Armor Affixes: 全护甲词条表
+            Equipment Currency Reference: 装备通货速查
+            Default Configuration: 默认配置
 
 markdown_extensions:
   - admonition
@@ -41,32 +82,31 @@ markdown_extensions:
       alternate_style: true
 
 nav:
-  - 首页: index.md
-  - 基础信息:
-      - 安装与兼容性: getting-started/installation.md
-      - 操作与常见问题: getting-started/faq.md
-  - 装备系统:
-      - 品质与词条: equipment/quality-and-affixes.md
-      - 符文石与装备塑造: equipment/currency-workflow.md
-      - 武器质变: equipment/weapon-transmutation.md
-      - 特殊武器变体: equipment/special-weapon-variants.md
-      - 符文诅咒武器: equipment/rune-cursed-weapons.md
-      - 异化宝石: equipment/alien-orb.md
-      - 装备掉落保护: equipment/drop-protection.md
-  - 战斗与怪物:
-      - 伤害结算: combat/damage-pipeline.md
-      - 元素、抗性与状态: combat/elements-and-resistances.md
-      - 武器战技与副手: combat/weapon-skills-and-offhand.md
-      - 怪物等级: monsters/monster-levels.md
-      - 精英怪: monsters/elites.md
-  - 获取与探索:
-      - 怪物掉落: obtaining/monster-drops.md
-      - 宝箱与交易: obtaining/chests-and-trades.md
-      - 钓鱼: obtaining/fishing.md
-  - 数据库:
-      - 数据口径: reference/index.md
-      - 全武器词条表: reference/weapon-affixes.md
-      - 全护甲词条表: reference/armor-affixes.md
-      - 武器与变体数据: reference/weapons-and-variants.md
-      - 符文石速查表: reference/currencies.md
-      - 默认配置: reference/default-config.md
+  - Home: index.md
+  - Getting Started:
+      - Installation & Compatibility: getting-started/installation.md
+      - Frequently Asked Questions: getting-started/faq.md
+  - Equipment:
+      - Equipment Quality & Affixes: equipment/quality-and-affixes.md
+      - Equipment Currency: equipment/currency-workflow.md
+      - Weapon Transmutation: equipment/weapon-transmutation.md
+      - Special Weapon Variants: equipment/special-weapon-variants.md
+      - Rune-Cursed Weapons: equipment/rune-cursed-weapons.md
+      - Alien Orb: equipment/alien-orb.md
+      - Dropped Equipment Protection: equipment/drop-protection.md
+  - Combat & Monsters:
+      - Damage Calculation: combat/damage-pipeline.md
+      - Elements, Resistances & Status Effects: combat/elements-and-resistances.md
+      - Weapon Skills & Offhand Attacks: combat/weapon-skills-and-offhand.md
+      - Monster Levels: monsters/monster-levels.md
+      - Elite Monsters: monsters/elites.md
+  - Obtaining & Exploration:
+      - Monster Drops: obtaining/monster-drops.md
+      - Chests & Trades: obtaining/chests-and-trades.md
+      - Fishing: obtaining/fishing.md
+  - Data Tables:
+      - Overview: reference/index.md
+      - Weapon Affixes: reference/weapon-affixes.md
+      - Armor Affixes: reference/armor-affixes.md
+      - Equipment Currency Reference: reference/currencies.md
+      - Default Configuration: reference/default-config.md
