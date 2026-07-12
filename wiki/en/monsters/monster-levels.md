@@ -10,7 +10,7 @@ The default horizontal cycle is 1,000 blocks for `+10` levels, with no contribut
 
 In the Overworld, Depth contribution begins below `Y=50`. From Y=50 to Y=0, every full `10` blocks downward adds `1` level. Below Y=0, every further `5` blocks adds `1` level. Depth contribution is normally capped at `+15`. The Nether and End ignore Depth contribution.
 
-Height contribution begins above `Y=100`. Every full `20` blocks upward adds `1` level, normally capped at `+15`.
+Height contribution begins above `Y=100`. Every full `20` blocks upward adds `1` level, normally capped at `+15`. After the Ender Dragon is defeated for the first time, Depth contribution is calculated at twice the rate and its cap rises to `+30`; the horizontal Distance cap also doubles. Height keeps its normal rule.
 
 `/rf level` separates Local Difficulty, Distance, Depth, Height, Dimension, Time, boss progression, manual adjustment, and death level-down.
 
