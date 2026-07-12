@@ -9,8 +9,18 @@ This page lists Elite generation, scaling, rewards, and every Elite Affix.
 - Defeating the Ender Dragon adds `0.5` percentage points.
 - Giant variants double the chance.
 - The random Elite chunk cap is disabled by default. If a server enables it, the base cap is `1` random Elite per chunk, with up to `1` extra slot for persistent random Elites; guaranteed Elites do not use this cap.
-- Wardens and mobs tagged as guaranteed Elites always become Elite. Ender Dragons, Withers, and Wardens have exactly three affixes.
+- Guaranteed Elites bypass the random chance roll and the random Elite chunk cap; their list and boss-tier exceptions are detailed below.
 - Summoning Aura reinforcements cannot become Elite.
+
+## Guaranteed And Boss-Tier Elites
+
+Guaranteed Elites do not need the random Elite roll. They still become Elite if random Elite spawning is disabled, do not count toward the random Elite chunk cap, and do not use random Elites' custom long-distance despawn timers.
+
+By default, `#runeforged:elite_guaranteed_mobs` contains Ender Dragon, Wither, Elder Guardian, Warden, Ravager, Evoker, Piglin Brute, and Wither Skeleton.
+
+Guaranteed non-boss Elites still use the normal `1`-to-`4` affix count table, but their roll level is reduced by `10`; in the Nether or End, it is reduced by another `10`. They gain `+5` bonus levels per affix by default instead of a random Elite's `+10`.
+
+Ender Dragons, Withers, and Wardens are boss-tier Elites. They always have exactly `3` affixes, one of which is Elemental Resistance. They cannot roll Revival, Command Aura, Summoning Aura, or Damage Transfer, and they do not use the normal out-of-combat Elite regeneration.
 
 ## Affix Count Algorithm
 
@@ -44,7 +54,7 @@ After the Ender Dragon:
 | 75 | 29.63% | 44.44% | 18.52% | 7.41% |
 | 100 | 15.15% | 53.03% | 22.73% | 9.09% |
 
-Guaranteed non-boss Elites use `L - 10`; in the Nether or End they use another `-10`. Ender Dragons, Withers, and Wardens skip this count roll.
+Guaranteed non-boss Elites use this same table after their roll-level penalty. Ender Dragons, Withers, and Wardens skip the table and use exactly three affixes.
 
 ## Level and Trait Conflicts
 
