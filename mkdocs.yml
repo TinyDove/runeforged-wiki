@@ -1,0 +1,72 @@
+site_name: Runeforged 中文 Wiki
+site_description: Runeforged 的中文玩家指南、机制说明与完整数据参考
+site_url: https://tinydove.github.io/runeforged-wiki/
+repo_url: https://github.com/TinyDove/runeforged-wiki
+repo_name: TinyDove/runeforged-wiki
+docs_dir: wiki
+strict: true
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+  palette:
+    - scheme: slate
+      primary: deep purple
+      accent: orange
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - 首页: index.md
+  - 基础信息:
+      - 安装与兼容性: getting-started/installation.md
+      - 操作与常见问题: getting-started/faq.md
+  - 装备系统:
+      - 品质与词条: equipment/quality-and-affixes.md
+      - 符文石与装备塑造: equipment/currency-workflow.md
+      - 武器质变: equipment/weapon-transmutation.md
+      - 特殊武器变体: equipment/special-weapon-variants.md
+      - 符文诅咒武器: equipment/rune-cursed-weapons.md
+      - 异化宝石: equipment/alien-orb.md
+      - 装备掉落保护: equipment/drop-protection.md
+  - 战斗与怪物:
+      - 伤害结算: combat/damage-pipeline.md
+      - 元素、抗性与状态: combat/elements-and-resistances.md
+      - 武器战技与副手: combat/weapon-skills-and-offhand.md
+      - 怪物等级: monsters/monster-levels.md
+      - 精英怪: monsters/elites.md
+  - 获取与探索:
+      - 怪物掉落: obtaining/monster-drops.md
+      - 宝箱与交易: obtaining/chests-and-trades.md
+      - 钓鱼: obtaining/fishing.md
+  - 数据库:
+      - 数据口径: reference/index.md
+      - 全武器词条表: reference/weapon-affixes.md
+      - 全护甲词条表: reference/armor-affixes.md
+      - 武器与变体数据: reference/weapons-and-variants.md
+      - 符文石速查表: reference/currencies.md
+      - 默认配置: reference/default-config.md
