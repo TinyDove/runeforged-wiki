@@ -2,6 +2,24 @@
 
 Equipment currency is normally used in the player crafting grid or a crafting table. Unless stated otherwise, place exactly one affixable item and one currency item anywhere in the grid. Random outcomes are finalized when the result is taken.
 
+## Base Currency Recipes
+
+These recipes use a crafting table. Counts are totals for the complete recipe. Cobblestone in Shaping Stone, Reinforcement Stone, and Edict Stone recipes can also be replaced with Blackstone or Cobbled Deepslate.
+
+| Currency | Required materials |
+| --- | --- |
+| Shaping Stone | 6 Cobblestone, 3 Copper Ingots |
+| Reinforcement Stone | 6 Cobblestone, 2 Copper Ingots, 1 Iron Ingot |
+| Tempering Stone | 6 Lapis Lazuli, 3 Gold Ingots |
+| Reforging Stone | 6 Glass, 2 Iron Ingots, 1 Gold Ingot |
+| Stripping Stone | 6 Redstone Dust, 3 Gold Ingots |
+| Alien Gem | 6 Redstone Dust, 2 Gold Ingots, 1 Eye of Ender |
+| Penance Stone | 6 Amethyst Shards, 2 Lapis Lazuli, 1 Diamond |
+| Edict Stone | 6 Cobblestone, 2 Gold Ingots, 1 Diamond |
+| Sealed Gem | 6 Redstone Dust, 2 Diamonds, 1 Eye of Ender |
+| Infusion Gem | 6 Lapis Lazuli, 2 Gold Ingots, 1 Diamond |
+| Ascension Stone | 4 Gold Ingots, 4 Diamonds, 1 Netherite Ingot |
+
 ## Quality and Regular-Affix Count
 
 | Quality | Regular affixes |

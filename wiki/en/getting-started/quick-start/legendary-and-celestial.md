@@ -10,7 +10,7 @@ A Celestial Fragment rerolls the Legendary Affix without changing regular affixe
 
 A regular affix that has T1 can rarely break through to T0. It keeps the original affix name and eligibility rules, occupies a regular-affix slot, and has a fixed value equal to `120%` of that affix's maximum T1 value.
 
-Regular T0 can appear on equipment from non-crafted sources. A Celestial Tempering Stone has a `10%` chance to attempt regular T0 for its new affix; a Celestial Penance Stone has a `5%` chance for its replacement. Alien-specific and Legendary Affixes are not regular T0 affixes in this section.
+Regular T0 can appear on equipment from non-crafted sources, or when Alien distortion pushes a regular affix beyond the T1 maximum. A Celestial Tempering Stone has a `10%` chance to attempt regular T0 for its new affix; a Celestial Penance Stone has a `5%` chance for its replacement.
 
 ## Celestial Currency
 

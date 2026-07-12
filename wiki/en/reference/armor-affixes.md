@@ -59,11 +59,10 @@ Example: if 100 damage remains after Armor and enchantments, additive reduction 
 
 ## Boots
 
-| Display name | T3 | T2 | T1 |
-| --- | --- | --- | --- |
-| Movement Speed | `+6%–8%` | `+8%–12%` | `+12%–20%` |
-
-Dodge Chance appears only on Leggings. Boots cannot roll Dodge Chance.
+| Display name | T3 | T2 | T1 | Scope |
+| --- | --- | --- | --- | --- |
+| Movement Speed | `+6%–8%` | `+8%–12%` | `+12%–20%` | Player movement speed |
+| Dodge Chance | `-` | `+6%–8%` | `+8%–12%` | Melee and projectile damage |
 
 ## Conflicts
 

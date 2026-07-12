@@ -34,7 +34,7 @@ A standard Alienation then makes `1–5` rolls. Each roll chooses equally among 
 | Distort highest Tier | Multiplies one highest-Tier regular affix by `0.8–1.5` |
 | Empower Infusion | Multiplies an existing Infusion Affix by `1.2–1.5` |
 
-Distortion can reduce the selected affix to `80%` of its former value.
+Distortion can reduce the selected affix to `80%` of its former value. If the distorted regular affix crosses beyond the T1 maximum into T0, its value is normalized to that affix's fixed regular-T0 value.
 
 ## Weapon T0 Affixes
 

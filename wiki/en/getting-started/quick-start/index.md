@@ -1,6 +1,6 @@
 # Quick Start
 
-This section establishes the structure of Runeforged without recommending builds or prescribing a play order. Each page explains what a system contains, how it connects to the others, and where to find its complete rules.
+This section introduces Runeforged through its system relationships, explains what each system contains, and links to the complete rules.
 
 ## Suggested Reading Order
 
@@ -21,4 +21,3 @@ For exact values, go directly to [Data Tables](../../reference/index.md):
 - [Armor Affixes](../../reference/armor-affixes.md)
 - [Equipment Currency Reference](../../reference/currencies.md)
 - [Player Commands](../../reference/commands.md)
-

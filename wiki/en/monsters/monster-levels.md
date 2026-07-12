@@ -8,6 +8,10 @@ A monster's final level combines area level, world progression, random bonus lev
 
 The default horizontal cycle is 1,000 blocks for `+10` levels, with no contribution below zero. The Nether and End each have a default `+10` dimension bonus.
 
+In the Overworld, Depth contribution begins below `Y=50`. From Y=50 to Y=0, every full `10` blocks downward adds `1` level. Below Y=0, every further `5` blocks adds `1` level. Depth contribution is normally capped at `+15`. The Nether and End ignore Depth contribution.
+
+Height contribution begins above `Y=100`. Every full `20` blocks upward adds `1` level, normally capped at `+15`.
+
 `/rf level` separates Local Difficulty, Distance, Depth, Height, Dimension, Time, boss progression, manual adjustment, and death level-down.
 
 ## World Progression
@@ -37,4 +41,4 @@ Ordinary monsters begin with 10% Frost, Lightning, and Holy Resistance and gain 
 
 ## Temporary Death Level-Down
 
-If a player dies within the default 10-second window after monster damage, their nearby base level is temporarily lowered. The first adjustment is `-2`; repeated deaths progress toward `-5` or `-10`, with a minimum of `-10`. One level recovers every half game day by default. This changes the base level used near that player without removing world progression.
+If a player dies within the default 10-second window after monster damage, their nearby base level is temporarily lowered. The first adjustment is `-2`; repeated deaths progress toward `-5` or `-10`, with a minimum of `-10`. One level recovers every half game day by default. `/rf level restore` immediately clears the player's active death level-down. This adjustment changes the base level used near that player.
