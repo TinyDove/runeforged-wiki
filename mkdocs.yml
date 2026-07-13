@@ -66,6 +66,7 @@ plugins:
             Combat & Monsters: 战斗与怪物
             Damage Calculation: 伤害结算
             Elements, Resistances & Status Effects: 元素、抗性与状态
+            Elemental Enchantments: 元素附魔
             Weapon Skills & Offhand Attacks: 武器战技与副手攻击
             Monster Levels: 怪物等级
             Elite Monsters: 精英怪
@@ -75,6 +76,7 @@ plugins:
             Fishing: 钓鱼
             Data Tables: 数据库
             Overview: 数据说明
+            Weapon Base Stats: 武器基础数据
             Weapon Affixes: 全武器词条表
             Armor Affixes: 全护甲词条表
             Equipment Currency Reference: 装备通货速查
@@ -120,6 +122,7 @@ nav:
   - Combat & Monsters:
       - Damage Calculation: combat/damage-pipeline.md
       - Elements, Resistances & Status Effects: combat/elements-and-resistances.md
+      - Elemental Enchantments: combat/elemental-enchantments.md
       - Weapon Skills & Offhand Attacks: combat/weapon-skills-and-offhand.md
       - Monster Levels: monsters/monster-levels.md
       - Elite Monsters: monsters/elites.md
@@ -129,6 +132,7 @@ nav:
       - Fishing: obtaining/fishing.md
   - Data Tables:
       - Overview: reference/index.md
+      - Weapon Base Stats: reference/weapon-base-stats.md
       - Weapon Affixes: reference/weapon-affixes.md
       - Armor Affixes: reference/armor-affixes.md
       - Equipment Currency Reference: reference/currencies.md

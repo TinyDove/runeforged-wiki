@@ -11,6 +11,8 @@ Runeforged 新增四个完整武器家族。它们和剑、斧、矛等武器一
 
 每个家族的材料版本会改变基础攻击伤害、攻击速度和耐久。家族固定特征与随机普通词条是两套独立内容。
 
+不同家族还拥有不同的点伤系数。它直接改变物理/元素点伤与复合词条点伤部分的实际数值；完整属性和系数见[武器基础数据](../../reference/weapon-base-stats.md)。
+
 ## 副手攻击
 
 主手没有发动战技时，右键合法目标可以尝试用副手近战武器攻击。副手使用自身的攻击伤害、速度和词条；单持增伤则要求副手为空。
@@ -18,6 +20,7 @@ Runeforged 新增四个完整武器家族。它们和剑、斧、矛等武器一
 ## 详细内容
 
 - [武器战技与副手攻击](../../combat/weapon-skills-and-offhand.md)
+- [武器基础数据](../../reference/weapon-base-stats.md)
 - [全武器词条表](../../reference/weapon-affixes.md)
+- [元素附魔](../../combat/elemental-enchantments.md)
 - [特殊武器变体](../../equipment/special-weapon-variants.md)
-

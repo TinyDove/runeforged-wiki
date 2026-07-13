@@ -1,6 +1,6 @@
 # Weapon Affixes
 
-This page lists weapon affixes available from ordinary equipment generation and regular affix forging.
+This page lists weapon affixes available from ordinary equipment generation and regular affix forging. Flat-damage ranges are base values at a `1.00` coefficient; see [Weapon Base Stats](weapon-base-stats.md#flat-damage-coefficients) for the actual coefficient of each Weapon Family and Variant.
 
 ## General Weapon Affixes
 

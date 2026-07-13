@@ -6,7 +6,11 @@ A weapon hit can contain Physical, Fire, Frost, Lightning, and Holy Damage. Elem
 
 ### Physical Base
 
-`Total Physical = (Base weapon Physical + flat Physical Damage) × (1 + Physical Damage %)`
+Physical flat-damage Affixes and the flat portion of Physical Compound Damage first use the weapon's final flat-damage coefficient. Fixed Physical Damage supplied directly by a Variant does not use that coefficient:
+
+`Total Physical = [Base weapon Physical + (Physical flat Affixes + Physical Compound flat) × final Physical coefficient + Variant fixed Physical flat] × (1 + Physical Damage %)`
+
+The final coefficient is the Weapon Family's base coefficient plus its Variant adjustment. Short Scythe uses a Physical-coefficient override. See [Weapon Base Stats](../reference/weapon-base-stats.md#flat-damage-coefficients) for the complete table.
 
 For a vanilla falling critical, base weapon damage is first restored to its non-critical value; the vanilla `1.5` multiplier is applied later with the other multipliers.
 
@@ -18,7 +22,7 @@ All Physical-to-element conversion percentages are added together, capped at `10
 
 Each element is calculated separately:
 
-`Element = (flat elemental damage + converted Physical) × (1 + Elemental Damage % + element-specific bonus)`
+`Element = [(Element flat Affixes + Element Compound flat) × final Elemental coefficient + converted Physical] × (1 + Elemental Damage % + element-specific bonus)`
 
 ## Weapon Damage Multipliers
 
@@ -46,6 +50,8 @@ Runeforged Critical Strikes and vanilla falling criticals are independent. Leap 
 Cursed Physical and Elemental Damage penalties multiply their matching buckets after the weapon multipliers above.
 
 Vanilla enchantment damage and enchantment-style elemental additions are then added as flat damage. They do not benefit from Physical/Elemental %, Slayer, Blessing, All Damage, Runeforged Critical Strike, Single-Wield, Leap, or Dash multipliers.
+
+See [Elemental Enchantments](elemental-enchantments.md) for levels, eligibility, and Affix conflicts of the four Runeforged Elemental Enchantments.
 
 ## Defense
 

@@ -11,6 +11,8 @@ Runeforged adds four complete weapon families. Like Swords, Axes, Spears, and ot
 
 Material versions determine base Attack Damage, base Attack Speed, and durability. Inherent family traits and random regular affixes are separate systems.
 
+Weapon Families also use different flat-damage coefficients. These directly change actual Physical/Elemental flat damage and the flat portion of Compound Damage. See [Weapon Base Stats](../../reference/weapon-base-stats.md) for complete stats and coefficients.
+
 ## Offhand Attacks
 
 When the main hand does not activate a Weapon Skill, right-clicking a valid target can attack with an eligible offhand melee weapon. The offhand uses its own damage, speed, and affixes; Single-Wield Damage instead requires an empty offhand.
@@ -18,6 +20,7 @@ When the main hand does not activate a Weapon Skill, right-clicking a valid targ
 ## Full Documentation
 
 - [Weapon Skills & Offhand Attacks](../../combat/weapon-skills-and-offhand.md)
+- [Weapon Base Stats](../../reference/weapon-base-stats.md)
 - [Weapon Affixes](../../reference/weapon-affixes.md)
+- [Elemental Enchantments](../../combat/elemental-enchantments.md)
 - [Special Weapon Variants](../../equipment/special-weapon-variants.md)
-

@@ -1,5 +1,7 @@
 # Elements, Resistances & Status Effects
 
+Weapons can gain Elemental Damage from regular Affixes, Physical conversion, or [Elemental Enchantments](elemental-enchantments.md).
+
 Resistance is measured in percent: positive values reduce damage and negative values are weaknesses. Base resistance, Elite resistance, and status modifiers are clamped to `-100%–95%`; Elemental Resistance Penetration is subtracted afterward, so effective resistance can fall below `-100%`.
 
 ## Base Resistances

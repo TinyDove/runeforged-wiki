@@ -4,6 +4,7 @@ This section collects default data that players can directly obtain or use.
 
 | Page | Contents |
 | --- | --- |
+| [Weapon Base Stats](weapon-base-stats.md) | Material stats and flat-damage coefficients for seven Weapon Families |
 | [Weapon Affixes](weapon-affixes.md) | Regular weapon affixes, eligible weapons, and Tier ranges |
 | [Armor Affixes](armor-affixes.md) | Regular armor affixes, eligible slots, and Tier ranges |
 | [Special Weapon Variants](../equipment/special-weapon-variants.md) | Base weapon-family traits and every variant's complete fixed traits |

@@ -12,7 +12,7 @@ A Smithing Table applies one set of fixed Transmutation effects without using a 
 
 ## Special Weapon Variants
 
-A variant replaces one or more inherent family traits while retaining the rest. Some also change the Weapon Skill, Attack Range, speed, or regular Affix Strength.
+A variant replaces one or more inherent family traits while retaining the rest. Some also change the Weapon Skill, Attack Range, speed, or flat-damage coefficient.
 
 Variants and Transmutations are separate: a variant changes the weapon template, while a Transmutation is a fixed equipment effect.
 
@@ -22,4 +22,3 @@ Variants and Transmutations are separate: a variant changes the weapon template,
 - [Weapon Transmutation](../../equipment/weapon-transmutation.md)
 - [Special Weapon Variants](../../equipment/special-weapon-variants.md)
 - [Equipment Material Upgrade](../../equipment/material-upgrade.md)
-

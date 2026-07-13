@@ -14,8 +14,8 @@ For a first reading, begin with [Quick Start](getting-started/quick-start/index.
 | --- | --- | --- |
 | Equipment | Quality, Affix Tiers, Material Upgrade, Infusion, and Cursed equipment | [Quality & Affixes](equipment/quality-and-affixes.md), [Material Upgrade](equipment/material-upgrade.md), [Infusion](equipment/infusion.md), [Cursed Equipment](equipment/curses.md) |
 | Currency | How each Rune Stone is used and what it changes | [Equipment Currency](equipment/currency-workflow.md) |
-| Weapons | Transmutations, variants, Rune-Cursed Weapons, and Weapon Skills | [Weapon Transmutation](equipment/weapon-transmutation.md), [Special Weapon Variants](equipment/special-weapon-variants.md), [Rune-Cursed Weapons](equipment/rune-cursed-weapons.md) |
-| Combat | Damage order, armor, resistance, elements, and status effects | [Damage Calculation](combat/damage-pipeline.md), [Elements & Resistances](combat/elements-and-resistances.md) |
+| Weapons | Base stats, flat-damage coefficients, Transmutations, variants, Rune-Cursed Weapons, and Weapon Skills | [Weapon Base Stats](reference/weapon-base-stats.md), [Weapon Transmutation](equipment/weapon-transmutation.md), [Special Weapon Variants](equipment/special-weapon-variants.md), [Rune-Cursed Weapons](equipment/rune-cursed-weapons.md) |
+| Combat | Damage order, armor, resistance, elements, Enchantments, and status effects | [Damage Calculation](combat/damage-pipeline.md), [Elemental Enchantments](combat/elemental-enchantments.md), [Elements & Resistances](combat/elements-and-resistances.md) |
 | Monsters | Levels, stat growth, Elite Affixes, and rewards | [Monster Levels](monsters/monster-levels.md), [Elite Monsters](monsters/elites.md) |
 | Obtaining | Monster drops, chests, fishing, and trades | [Monster Drops](obtaining/monster-drops.md), [Chests & Trades](obtaining/chests-and-trades.md), [Fishing](obtaining/fishing.md) |
 | Data | Complete affix tables, currency, commands, and default configuration | [Data Tables](reference/index.md) |
