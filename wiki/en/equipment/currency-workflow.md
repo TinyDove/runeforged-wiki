@@ -143,7 +143,7 @@ In item names, targeted Shaping, Reinforcement, and Tempering Stones appear as A
 
 ## Celestial Currency Overview
 
-When a single non-crafted currency is generated, it first checks whether it becomes Celestial. Shaping and Reinforcement Stones use a `0.25%` chance; other currencies with Celestial versions use `1%`. A successful Celestial conversion skips targeted and Sealed conversion.
+When a single non-crafted currency is generated, it first checks whether it becomes Celestial. Shaping and Reinforcement Stones use a `0.25%` chance, Tempering and Stripping Stones use `0.5%`, and other currencies with Celestial versions use `1%`. A successful Celestial conversion skips targeted and Sealed conversion.
 
 | Currency | Difference from the base version |
 | --- | --- |
