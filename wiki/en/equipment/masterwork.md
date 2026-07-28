@@ -43,7 +43,7 @@ The Celestial Reinforcement Stone raises Masterwork Quality:
 - It cannot be used at `25.0`.
 - If the item has no masterworked affix, it first selects `1` regular main affix at random.
 
-The first direct Celestial Reinforcement use also establishes the initial `1.0` quality, so the resulting total is `2.0–5.0`.
+If the item has no stored Masterwork Quality, its first direct Celestial Reinforcement use also establishes the initial `1.0` quality, so the resulting total is `2.0–5.0`. If the item retains stored quality but has no masterworked affix, the stone selects one affix and adds only the usual `1.0–4.0`, up to the `25.0` cap.
 
 ## Currency Interactions
 
