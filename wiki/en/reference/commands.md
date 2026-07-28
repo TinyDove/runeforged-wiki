@@ -1,6 +1,8 @@
 # Player Commands
 
-Runeforged player commands begin with `/rf`. Only the two Creative commands below require Creative mode; the rest require no administrator permission.
+Runeforged player commands begin with `/rf`. Ordinary query and guide commands require no administrator permission.
+
+World-level management commands are player-only and cannot be run directly from the server console. `set` requires GameMaster permission or singleplayer-owner status and also requires Creative mode. `extra` and `clear` require GameMaster permission or singleplayer-owner status but do not require Creative mode.
 
 | Command | Result |
 | --- | --- |
@@ -13,8 +15,9 @@ Runeforged player commands begin with `/rf`. Only the two Creative commands belo
 | `/rf guide late` | Late Paths hints |
 | `/rf level` | Base monster level at the current position and every contributing factor; excludes per-mob random and Elite bonus levels |
 | `/rf level restore` | Clears the personal death level-down adjustment |
-| `/rf level set <1–100>` | Locks the world's base level; Creative mode only |
-| `/rf level clear` | Clears the world base-level lock; Creative mode only |
+| `/rf level set <1–100>` | Locks the world's base level; requires world-level permission and Creative mode |
+| `/rf level extra <1–100>` | Adds a world monster level to the calculated or locked base level and raises its cap by the same amount; requires world-level permission |
+| `/rf level clear` | Clears both the world base-level lock and world monster extra level; requires world-level permission |
 | `/rf dps` | Main-hand weapon's theoretical panel DPS, hit or shot damage, speed or charge time, and rating |
 | `/rf info` | Quick-reference index for elemental and Physical Damage |
 | `/rf info fire` | Fire weaknesses, resistances, environment, and effect |

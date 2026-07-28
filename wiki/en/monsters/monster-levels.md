@@ -25,7 +25,21 @@ Height contribution begins above `Y=100`. Every full `20` blocks upward adds `1`
 | Maximum random spawn bonus | 5 |
 | Random bonus stage factor | 2.0 |
 
-A server command can lock or add levels; a lock takes priority over normal progression.
+## World-Level Management
+
+Authorized players can lock or add world levels:
+
+- `/rf level set <1–100>` locks the world base level and replaces area, time, and boss-progression calculation.
+- `/rf level extra <1–100>` adds the specified amount to either the calculated or locked base level.
+- `/rf level clear` clears both the base-level lock and the extra level.
+
+`set` requires GameMaster permission or singleplayer-owner status, and the player must be in Creative mode. `extra` and `clear` require GameMaster permission or singleplayer-owner status but do not require Creative mode. All three management commands are player-only and cannot be run directly from the server console.
+
+The extra level is persistent world data shared across dimensions. It also raises the current base-level cap by the same amount: if the ordinary cap is 100 and the extra level is `+25`, the effective cap is 125. When a lock and extra level coexist, the final base level is the locked level plus the extra level.
+
+Setting or clearing the extra level does not recalculate monsters whose levels have already been generated and saved. The new value applies when a monster is first assigned a level afterward.
+
+`/rf level` lists the lock and extra level separately. Per-mob random and Elite bonus levels are still added after the base level.
 
 ## Stat Scaling
 

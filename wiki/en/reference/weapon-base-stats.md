@@ -39,10 +39,10 @@ Flat-damage ranges in the Affix table are base values at a `1.00` coefficient. I
 
 `Actual Flat Damage = Base Affix Flat Damage × Final Flat-Damage Coefficient`
 
-A Special Weapon Variant directly modifies its family's coefficient:
+A Special Weapon Variant can change its family's coefficient. Variants shown with an adjustment use:
 
 `Final Flat-Damage Coefficient = Family Base Coefficient + Variant Coefficient Adjustment`
 
-For example, Hand Axe starts from the Axe coefficient of `1.25` and applies `-0.05`, producing a final Physical and Elemental coefficient of `1.20`. Short Scythe is a special override: its Physical coefficient is fixed at `1.00` instead of adding an adjustment to the Scythe's `1.25`.
+For example, Hand Axe starts from the Axe coefficient of `1.25` and applies `-0.05`, producing a final Physical and Elemental coefficient of `1.20`.
 
-See [Special Weapon Variants](../equipment/special-weapon-variants.md) for every Variant adjustment.
+See [Special Weapon Variants](../equipment/special-weapon-variants.md#flat-damage-coefficients) for every Variant coefficient.

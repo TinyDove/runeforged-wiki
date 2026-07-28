@@ -10,13 +10,15 @@ Physical flat-damage Affixes and the flat portion of Physical Compound Damage fi
 
 `Total Physical = [Base weapon Physical + (Physical flat Affixes + Physical Compound flat) × final Physical coefficient + Variant fixed Physical flat] × (1 + Physical Damage %)`
 
-The final coefficient is the Weapon Family's base coefficient plus its Variant adjustment. Short Scythe uses a Physical-coefficient override. See [Weapon Base Stats](../reference/weapon-base-stats.md#flat-damage-coefficients) for the complete table.
-
-For a vanilla falling critical, base weapon damage is first restored to its non-critical value; the vanilla `1.5` multiplier is applied later with the other multipliers.
+The final coefficient is determined by the Weapon Family and Special Weapon Variant. See [Weapon Base Stats](../reference/weapon-base-stats.md#flat-damage-coefficients) and [Special Weapon Variants](../equipment/special-weapon-variants.md#flat-damage-coefficients) for the complete data.
 
 ### Physical Conversion
 
-All Physical-to-element conversion percentages are added together, capped at `100%`. Conversion affects the Physical total above but not vanilla enchantment damage.
+Physical-to-element conversion uses the Physical total above and does not include vanilla enchantment damage.
+
+Physical-to-element conversion can exceed `100%`. Elemental damage is created at the full conversion percentage, while remaining Physical Damage cannot fall below `0`. For example, `100` Physical Damage with `120%` Physical-to-Fire results in `120` Fire Damage and `0` Physical Damage.
+
+Random Physical-to-element conversion uses only the portion below `100%` that other conversion has not already occupied. It has no effect once existing conversion has reached or exceeded `100%`.
 
 ### Elemental Damage
 
@@ -26,7 +28,7 @@ Each element is calculated separately:
 
 ## Weapon Damage Multipliers
 
-Remaining Physical and all four elemental buckets share the following multipliers:
+The Physical Damage left after conversion and all four elemental damage types then share the following multipliers:
 
 | Multiplier | Rule |
 | --- | --- |
@@ -39,7 +41,7 @@ Remaining Physical and all four elemental buckets share the following multiplier
 | Single-Wield Damage | Active with an empty offhand |
 | Leap Attack Damage | Active when the hit meets vanilla falling-critical conditions |
 | Dash Attack Damage | Active on a sprint attack |
-| Vanilla critical | `×1.5` when vanilla falling-critical conditions are met |
+| Vanilla critical | Damage `×1.5` when vanilla falling-critical conditions are met |
 
 These rows multiply one another. Slayer/Blessing `40%`, All Damage `20%`, and a Runeforged Critical Strike `50%` produce `1.40 × 1.20 × 1.50`, not one additive `110%` bonus.
 

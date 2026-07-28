@@ -41,4 +41,4 @@ Weapons are selected equally from Iron Sword, Iron Axe, Iron Rapier, Iron Dagger
 
 ## Currency Rewards
 
-Fished Shaping Stones, Reinforcement Stones, Tempering Stones, and Ascension Stones have a `50%` chance to become targeted versions. Supported currencies may also lock the displayed Tier.
+A single fished Shaping Stone or Reinforcement Stone first has a `0.25%` chance to become its Celestial version; a successful conversion skips the targeted roll. Shaping and Reinforcement Stones that remain ordinary, plus Tempering and Ascension Stones, have a `50%` chance to become targeted versions. Supported currencies may also lock the displayed Tier.

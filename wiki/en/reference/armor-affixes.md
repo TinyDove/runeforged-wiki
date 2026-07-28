@@ -2,6 +2,8 @@
 
 This page lists armor affixes available from ordinary equipment generation and regular affix forging. Slot labels are strict: Movement Speed appears only on Boots, for example.
 
+All ranges are unmasterworked base values. A masterworked affix displays `Tier+` and applies the item's Masterwork Quality multiplier; see [Masterwork](../equipment/masterwork.md).
+
 ## Damage-Reduction Rules
 
 - Dodge is checked before damage; a success completely negates that melee or projectile hit.

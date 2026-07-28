@@ -18,9 +18,16 @@ Celestial versions provide stronger, more certain, or more focused forms of thei
 
 All Celestial currency differences and recipes are listed together on the Equipment Currency page.
 
+## Masterwork
+
+A Celestial Shaping Stone randomly masterworks up to `2` existing regular main affixes. Celestial Reinforcement Stones then raise Masterwork Quality, which increases those affixes' effective values by the same percentage. The normal quality limit is `25.0`.
+
+Masterwork does not add affixes or change their Tiers. Alienating masterworked equipment can also push Masterwork Quality into the `30–50` range.
+
 ## Full Documentation
 
 - [Equipment Quality & Affixes](../../equipment/quality-and-affixes.md)
+- [Masterwork](../../equipment/masterwork.md)
 - [Equipment Currency & Celestial Recipes](../../equipment/currency-workflow.md)
 - [Equipment Material Upgrade](../../equipment/material-upgrade.md)
 - [Infusion](../../equipment/infusion.md)

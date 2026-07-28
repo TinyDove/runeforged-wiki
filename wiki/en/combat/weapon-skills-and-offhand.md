@@ -4,17 +4,17 @@ Right-click activates a Weapon Skill. A successful use consumes 1 food or satura
 
 ## Weapon Skills
 
-| Weapon | Skill | Requirement | Effect |
+The table lists each weapon family's default skill. Special weapon variants can replace that default; see [Special Weapon Variants](../equipment/special-weapon-variants.md) for the skill assigned to each variant.
+
+| Weapon family | Skill | Requirement | Effect |
 | --- | --- | --- | --- |
 | Dagger | Slice | Main or offhand | One weapon attack, Slowness II for 4 seconds, and 20% Armor reduction with a minimum of 4 Armor |
 | Rapier | Pierce | Single wield | +25% Attack Range, pierces multiple targets in a line, then rapidly repositions |
-| Spear | Charge | Hold to build momentum | A rushing thrust based on movement speed; Halberd uses Sweep instead |
+| Spear | Charge | Hold to build momentum | A rushing thrust based on movement speed |
 | Scythe | Sweep | Single wield | +25% Attack Range and +50% sweep angle; 75% base damage plus Sweeping Damage |
 | Vanilla Sword | Heavy Strike | Single wield | 135% damage and increased knockback to the main target; grounded sweeps deal 35% base damage plus Sweeping Damage nearby |
 | Vanilla Axe | Slash | Single wield | One attack that ignores 50% of target Armor, with a minimum of 10 Armor ignored |
 | Greatsword | Lion's Slash | Single wield and airborne | Rapid descent through targets in a line; always counts as a Leap Attack |
-
-Some special weapon variants replace their family's skill. Every variant's assigned skill is listed under [Special Weapon Variants](../equipment/special-weapon-variants.md).
 
 ## Offhand Attacks
 

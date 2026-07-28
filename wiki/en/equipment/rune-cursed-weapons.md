@@ -4,18 +4,12 @@ Rune-Cursed Weapons are crafted from a blank weapon and a specified currency. Ea
 
 ## Crafting
 
-The five standard routes use one blank weapon in the center and eight identical Rune Stones around it. The three special routes use one blank weapon in the center and four identical gems above, below, left, and right; all corners stay empty.
+Rune-Cursed Weapons use a `3×3` recipe. The two route layouts are:
 
-| Currency | Archetype | Pattern |
-| --- | --- | --- |
-| Shaping Stone | Foundation | 8 around center |
-| Reinforcement Stone | Military | 8 around center |
-| Reforging Stone | Molten | 8 around center |
-| Stripping Stone | Purification | 8 around center |
-| Tempering Stone | Resonance | 8 around center |
-| Alien Gem | Bloodthirst | 4 cardinal slots |
-| Sealed Gem | Ancient | 4 cardinal slots |
-| Infusion Gem | Nature | 4 cardinal slots |
+| Route | Eligible currency | Center slot | Other slots |
+| --- | --- | --- | --- |
+| Five standard routes | Shaping, Reinforcement, Reforging, Stripping, or Tempering Stone | One blank weapon | Eight identical Rune Stones in the outer ring |
+| Three special routes | Alien, Sealed, or Infusion Gem | One blank weapon | Four identical gems in the cardinal slots; corners empty |
 
 ## Blank Weapon
 
@@ -23,22 +17,24 @@ The center item must be an affixable Common weapon with no enchantments or store
 
 ## Eligible Weapon Families
 
-| Archetype | Eligible weapons |
-| --- | --- |
-| Foundation | Sword, Axe, Greatsword, Rapier, Spear |
-| Military | Sword, Rapier, Dagger, Spear |
-| Molten | Axe, Greatsword, Scythe, Spear |
-| Purification | Sword, Rapier, Dagger, Scythe, Greatsword |
-| Resonance | Sword, Rapier, Dagger, Scythe, Greatsword, Axe |
-| Bloodthirst | Dagger, Axe, Scythe, Spear |
-| Ancient | Sword, Axe, Greatsword, Scythe, Spear |
-| Nature | Sword, Dagger, Rapier, Scythe, Spear |
+| Archetype | Currency | Eligible weapons |
+| --- | --- | --- |
+| Foundation | Shaping Stone | Sword, Axe, Greatsword, Rapier, Spear |
+| Military | Reinforcement Stone | Sword, Rapier, Dagger, Spear |
+| Molten | Reforging Stone | Axe, Greatsword, Scythe, Spear |
+| Purification | Stripping Stone | Sword, Rapier, Dagger, Scythe, Greatsword |
+| Resonance | Tempering Stone | Sword, Rapier, Dagger, Scythe, Greatsword, Axe |
+| Bloodthirst | Alien Gem | Dagger, Axe, Scythe, Spear |
+| Ancient | Sealed Gem | Sword, Axe, Greatsword, Scythe, Spear |
+| Nature | Infusion Gem | Sword, Dagger, Rapier, Scythe, Spear |
 
 ## Result Structure
 
 Every result is Cursed and contains fixed-value affixes, fixed-Tier affixes whose values roll inside that Tier, and one additional random T3/T2/T1 affix. Archetypes may also add a Sealed or Infusion Affix.
 
-## Foundation
+## Archetype Details
+
+### Foundation
 
 Fixed values:
 
@@ -51,7 +47,7 @@ Fixed Tiers:
 - Physical Damage % T3
 - Max Durability T3
 
-## Military
+### Military
 
 Fixed values:
 
@@ -64,7 +60,7 @@ Fixed Tiers:
 - Physical Damage % T3 if Physical was selected, otherwise Elemental Damage % T3;
 - Critical Strike Chance T3.
 
-## Molten
+### Molten
 
 Fixed values:
 
@@ -78,7 +74,7 @@ Fixed Tiers:
 - Fire Compound Damage T3
 - Knockback Distance T3
 
-## Purification
+### Purification
 
 Fixed values:
 
@@ -92,7 +88,7 @@ Fixed Tiers:
 - Undead Slayer T3
 - Blessing of the Sun T3
 
-## Resonance
+### Resonance
 
 Fixed values:
 
@@ -106,7 +102,7 @@ Fixed Tiers:
 - the other selected element receives Physical conversion T3;
 - Elemental Damage % T2.
 
-## Bloodthirst
+### Bloodthirst
 
 Fixed values:
 
@@ -122,7 +118,7 @@ Fixed Tiers:
 
 A new Bloodthirst weapon has two remaining Alienations. Each successful Alien Gem use consumes one, and the remaining count is shown on the item.
 
-## Ancient
+### Ancient
 
 The weapon chooses either Frost or Lightning as its main route.
 
@@ -140,7 +136,7 @@ Fixed Tiers:
 
 It also gains one extra Sealed flat-damage affix matching the main element at T2.
 
-## Nature
+### Nature
 
 Fixed values:
 
@@ -163,4 +159,7 @@ It also gains one T2 Infusion Affix. The affix type is selected once, its value 
 - Bloodthirst supports at most two Alienations; Nature supports repeatable Infusion.
 - Some generated blank chest or fishing weapons have a `1%` chance to become Rune-Cursed directly.
 
-Tier ranges are listed under [Weapon Affixes](../reference/weapon-affixes.md).
+## Related Data
+
+- [Weapon Affixes](../reference/weapon-affixes.md) lists the default ranges for the corresponding affixes.
+- Server configuration may change affix values.

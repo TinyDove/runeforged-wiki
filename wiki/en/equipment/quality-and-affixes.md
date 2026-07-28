@@ -26,6 +26,12 @@ Regular T0 can appear on equipment from non-crafted sources such as monsters, ch
 - [Weapon Affixes](../reference/weapon-affixes.md)
 - [Armor Affixes](../reference/armor-affixes.md)
 
+## Masterworked Affixes
+
+Masterwork is not another affix type and does not occupy an additional affix slot. It selects up to `2` regular main affixes and raises their effective values according to the item's Masterwork Quality. A selected affix displays `Tier+`, such as `T1+`.
+
+See [Masterwork](masterwork.md) for the multiplier, Celestial Shaping and Reinforcement Stones, and currency interactions.
+
 ## Special Affixes
 
 | Type | Main source | Details |

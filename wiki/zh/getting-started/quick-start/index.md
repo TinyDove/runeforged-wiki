@@ -11,7 +11,7 @@
 | 3 | [装备锻造](equipment-forging.md) | 魔法/稀有装备、普通词条、材质升阶 |
 | 4 | [特殊武器系统](special-weapons.md) | 符文诅咒、质变与特殊武器变体 |
 | 5 | [诅咒与灌注](curses-and-infusion.md) | 诅咒类型、异化和灌注循环 |
-| 6 | [传说与天界锻造](legendary-and-celestial.md) | 传说装备、普通词条 T0 与天界通货 |
+| 6 | [传说与天界锻造](legendary-and-celestial.md) | 传说装备、普通词条 T0、精造与天界通货 |
 
 ## 数据查询
 

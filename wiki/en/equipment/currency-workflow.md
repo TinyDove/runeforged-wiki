@@ -33,15 +33,21 @@ These recipes use a crafting table. Counts are totals for the complete recipe. C
 
 Turns Common equipment with no regular affixes into Magic equipment and adds one random regular affix.
 
+**Celestial version:** a Celestial Shaping Stone does not perform ordinary shaping. It selects Masterwork affixes; with two already selected, it selects a different affix to masterwork. See [Masterwork](masterwork.md).
+
 ## Reinforcement Stone
 
 Adds one random regular affix to Magic equipment with 1–2 regular affixes, up to three. Quality remains Magic.
+
+**Celestial version:** a Celestial Reinforcement Stone does not add a regular affix. It establishes or raises Masterwork Quality; see [Masterwork](masterwork.md).
 
 ## Tempering Stone
 
 Adds one random regular affix to non-Cursed equipment below its regular-affix limit. At four affixes the item becomes Rare; the limit is five.
 
 When a weapon first becomes Rare and still has no direct damage affix, the newly added affix is selected from weapon damage affixes.
+
+**Celestial version:** a Celestial Tempering Stone adds at least T1 and has a `10%` chance to attempt an eligible regular T0, falling back to T1 when none is available.
 
 ## Reforging Stone
 
@@ -63,17 +69,25 @@ At a Smithing Table, a Reforging Stone also has a separate use: combine it with 
 
 Removes one random regular affix. The item drops from Rare to Magic below four regular affixes. Removing its final regular affix clears mutable Runeforged properties, while Sealed Affixes remain.
 
+**Celestial version:** a Celestial Stripping Stone removes the bottom regular affix in the displayed tooltip list instead of choosing randomly.
+
 ## Penance Stone
 
 Replaces one lowest-Tier regular affix. If several share the lowest Tier, one is selected randomly. The replacement is compatible with the item, and total affix count remains unchanged.
 
+**Celestial version:** a Celestial Penance Stone replaces the top displayed affix among those tied for the lowest Tier. The new affix has a `5%` chance to attempt an eligible regular T0.
+
 ## Edict Stone
 
-Rerolls the values of all regular affixes within their existing Tiers. Names, Tiers, count, quality, Legendary Affixes, and other special affixes remain unchanged.
+Rerolls the values of all non-masterworked regular affixes within their existing Tiers. Names, Tiers, count, quality, masterworked affixes, Legendary Affixes, and other special affixes remain unchanged. It cannot be used when every otherwise eligible affix is masterworked.
+
+**Celestial version:** a Celestial Edict Stone rerolls only the non-masterworked regular affix with the lowest relative value inside its Tier. Every other affix remains unchanged.
 
 ## Ascension Stone
 
 Turns Common, Magic, or Rare equipment Legendary, fills it to five regular affixes, and adds one T1 Legendary Affix. A Legendary weapon gains the fixed `10%` All Damage affix; Legendary armor gains fixed `10%` All Damage Reduction.
+
+**Celestial version:** a Celestial Ascension Stone is used only on Legendary equipment. It turns the item Mythic and raises its preserved Legendary Affix to fixed maximum-value T0.
 
 ## Celestial Fragment
 
@@ -96,17 +110,21 @@ Results:
 - one negative curse is added;
 - another use on Normal or Sealed Cursed equipment rerolls the entire curse area and negative curse.
 
-A Celestial Sealed Gem always creates three curse-area affixes, at least one of which is T1, and rerolls one negative curse. Sealed Gems are also ingredients for Origin Transmutation and Ancient Rune-Cursed Weapons.
+**Celestial version:** a Celestial Sealed Gem always creates three curse-area affixes, at least one of which is T1, and rerolls one negative curse. Sealed Gems are also ingredients for Origin Transmutation and Ancient Rune-Cursed Weapons.
 
 ## Infusion Gem
 
 Eligible non-Common equipment gains `25–100` Infusion Value while incomplete. At `100%`, an existing Infusion Affix can be replaced and progress is cleared. Normal Cursed equipment cannot reroll after receiving its first Infusion Affix; Nature Rune-Cursed Weapons can repeat the cycle. See [Infusion](infusion.md).
+
+**Celestial version:** a Celestial Infusion Gem creates an Infusion Affix regardless of progress, then rolls one chosen affix's value three times and keeps the best. The target must still allow infusion; see [Infusion](infusion.md).
 
 Infusion Gems are also ingredients for Triad Transmutation and Nature Rune-Cursed Weapons.
 
 ## Alien Gem
 
 Turns equipment into Alien-Cursed equipment and applies several random changes. See [Alien Gem](alien-orb.md) for the full change pool, T0 affixes, and restrictions.
+
+**Celestial version:** a Celestial Alien Gem follows the same regular-affix fill rule, then performs `4–6` random-change rolls; see [Celestial Alien Gem](alien-orb.md#celestial-alien-gem).
 
 ## Targeted Currency
 
@@ -123,18 +141,24 @@ Some targeted Shaping, Reinforcement, and Tempering Stones also lock the affix T
 
 In item names, targeted Shaping, Reinforcement, and Tempering Stones appear as Advanced Shaping Stone, Advanced Reinforcement Stone, and Advanced Tempering Stone. Tier-locked targeted versions appear as Sealed Shaping Stone, Sealed Reinforcement Stone, and Sealed Tempering Stone.
 
-## Celestial Currency
+## Celestial Currency Overview
+
+When a single non-crafted currency is generated, it first checks whether it becomes Celestial. Shaping and Reinforcement Stones use a `0.25%` chance; other currencies with Celestial versions use `1%`. A successful Celestial conversion skips targeted and Sealed conversion.
 
 | Currency | Difference from the base version |
 | --- | --- |
+| Celestial Shaping Stone | Randomly masterworks up to two existing regular main affixes; with two already selected, selects a different affix to masterwork |
+| Celestial Reinforcement Stone | Adds `1.0–4.0` Masterwork Quality up to the normal `25.0` cap; randomly masterworks one affix if none is selected |
 | Celestial Tempering Stone | Adds at least T1; has a `10%` chance to attempt an eligible regular T0 and falls back to T1 when none is available; targeted or Sealed versions follow their displayed rule |
 | Celestial Stripping Stone | Removes the bottom regular affix in the displayed list |
 | Celestial Alien Gem | Fills regular affixes by the Alienation rule, then makes `4–6` random-change rolls |
 | Celestial Sealed Gem | Creates three curse-area affixes with at least one T1; a reroll rebuilds the entire curse area and negative curse |
 | Celestial Infusion Gem | Creates an Infusion Affix regardless of progress; chooses one affix and rolls its value three times, keeping the best |
 | Celestial Penance Stone | Replaces the top displayed affix among those tied for the lowest Tier; the new affix has a `5%` chance to attempt an eligible regular T0 |
-| Celestial Edict Stone | Rerolls only the regular affix with the lowest relative roll within its Tier; preserves all other regular and Legendary Affixes |
+| Celestial Edict Stone | Among non-masterworked regular affixes, rerolls only the one with the lowest relative roll within its Tier; preserves masterworked affixes and every other regular or Legendary Affix |
 | Celestial Ascension Stone | Turns Legendary equipment Mythic and raises its preserved Legendary Affix to fixed maximum-value T0 |
+
+See [Masterwork](masterwork.md) for the complete Celestial Shaping, Celestial Reinforcement, and Masterwork Quality rules.
 
 ## Dismantling Equipment
 
@@ -158,6 +182,8 @@ Place at least two Runeforged items with regular affixes in a 2×2 or 3×3 craft
 | 4 Celestial Fragments | 1 Ascension Stone |
 | 1 Celestial Fragment + 1 Amethyst Shard | 2 Penance Stones |
 | 1 Celestial Fragment + 1 Cobblestone, Blackstone, or Cobbled Deepslate | 2 Edict Stones |
+| 1 Celestial Fragment + 1 Shaping Stone | 1 Celestial Shaping Stone |
+| 1 Celestial Fragment + 1 Reinforcement Stone | 1 Celestial Reinforcement Stone |
 | 1 Celestial Fragment + 1 Tempering Stone | 1 Celestial Tempering Stone |
 | 1 Celestial Fragment + 1 Stripping Stone | 1 Celestial Stripping Stone |
 | 1 Celestial Fragment + 1 Penance Stone | 1 Celestial Penance Stone |

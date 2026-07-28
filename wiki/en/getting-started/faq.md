@@ -2,7 +2,7 @@
 
 ## Which Minecraft versions are supported?
 
-Runeforged 0.2.1 supports every Minecraft 26.1 and 26.2 release. Install the Runeforged and Fabric API files built for your exact Minecraft version.
+Runeforged 0.2.2 supports Minecraft 26.1, 26.2, and 26.3. Install the Runeforged and Fabric API files built for your exact Minecraft version.
 
 ## Is the mod required on both client and server?
 

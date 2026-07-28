@@ -61,6 +61,7 @@ Weapon Infusion Affixes are T2 and filtered by weapon type, existing affixes, an
 | --- | --- |
 | Damage | Physical Damage; eligible Fire, Frost, Lightning, or Holy Damage |
 | General attack | Attack Speed, Critical Strike Chance, Elemental Resistance Penetration, Armor Penetration |
+| Melee special | Leap Attack Damage, Dash Attack Damage, Weapon Skill Damage, Sweeping Damage |
 | Ranged | Ammo Conservation, Bow Draw Speed, Crossbow Charge Speed, Multishot, Long-Range Damage |
 | Slayer | Undead Slayer, Human Slayer, Giant Slayer |
 | Blessing | Blessing of the Sun, Blessing of Shadows, Blessing of Storms, Blessing of Otherworlds |

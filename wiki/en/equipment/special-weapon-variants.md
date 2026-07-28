@@ -76,7 +76,7 @@ Scythe family traits are `+25%` Sweeping Damage, `+50%` Elemental Damage, and `+
 | Weapon | Replaced family trait | Final fixed traits | Weapon Skill |
 | --- | --- | --- | --- |
 | Scythe | — | Sweeping Damage `+25%`; Elemental Damage `+50%`; Knockback Distance `+25%` | Sweep |
-| Short Scythe | Sweeping Damage | Elemental Damage `+50%`; Knockback Distance `-50%`; Base Attack Speed `+0.2`; Attack Range `-0.5`; Physical flat-damage coefficient fixed at `1.00` | Slice |
+| Short Scythe | Sweeping Damage | Elemental Damage `+50%`; Knockback Distance `-50%`; Base Attack Speed `+0.2`; Attack Range `-0.5`; Physical flat-damage coefficient `1.00` | Slice |
 | War Scythe | Elemental Damage | Sweeping Damage `+25%`; Knockback Distance `+25%`; Physical Damage `+50%`; Elemental Damage `-50%` | Slash |
 | Great Scythe | Elemental Damage | Sweeping Damage `+25%`; Knockback Distance `+50%`; Attack Range `+1`; Base Attack Speed `-0.2`; flat-damage coefficient `+0.15` | Sweep |
 
@@ -91,10 +91,8 @@ The Spear family has `+15%` Dash Attack Damage and uses the Spear's own Attack R
 | Holy Spear | Dash Attack Damage and Spear range | `50%` Physical converted to Holy; final Physical Damage `-50%`; `+1` range relative to ordinary melee weapons | Charge |
 | Halberd | Dash Attack Damage and Spear range | Physical Damage `+1`; `+1.5` range relative to ordinary melee weapons; final Base Attack Speed fixed at `1.54/second` | Sweep |
 
-## Flat-Damage Coefficients
+## Flat-Damage Coefficients {#flat-damage-coefficients}
 
-A Variant coefficient adjustment is added directly to its Weapon Family's base coefficient. It affects only Physical/Elemental flat-damage Affixes and the flat portion of Compound Damage; it does not affect percentage values, Affix names, Tiers, or count. For example, Hand Axe uses the Axe coefficient `1.25 - 0.05 = 1.20`.
-
-Short Scythe uses an override: its Physical coefficient is fixed at `1.00`, while Elemental flat damage retains the Scythe's `1.00`. See [Weapon Base Stats](../reference/weapon-base-stats.md#flat-damage-coefficients) for family coefficients and the complete calculation rule.
+A flat-damage coefficient affects only Physical/Elemental flat-damage Affixes and the flat portion of Compound Damage; it does not affect percentage values, Affix names, Tiers, or count. Values shown with a plus or minus sign adjust the family coefficient; values without a sign are final coefficients. For example, Hand Axe uses `1.25 - 0.05 = 1.20`. See [Weapon Base Stats](../reference/weapon-base-stats.md#flat-damage-coefficients) for family coefficients.
 
 See [Weapon Skills & Offhand Attacks](../combat/weapon-skills-and-offhand.md) for skill effects.

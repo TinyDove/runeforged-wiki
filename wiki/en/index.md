@@ -1,6 +1,6 @@
 # Runeforged Wiki
 
-**Runeforged 0.2.1 · Minecraft 26.1 and 26.2, all releases**
+**Runeforged 0.2.2 · Minecraft 26.1, 26.2, and 26.3**
 
 Runeforged is a vanilla-plus ARPG mod centered on equipment growth. Equipment can gain quality, affixes, and special states, while monsters scale with world progression and may carry elite abilities, elemental resistances, and special rewards.
 
@@ -12,7 +12,7 @@ For a first reading, begin with [Quick Start](getting-started/quick-start/index.
 
 | System | Contents | Pages |
 | --- | --- | --- |
-| Equipment | Quality, Affix Tiers, Material Upgrade, Infusion, and Cursed equipment | [Quality & Affixes](equipment/quality-and-affixes.md), [Material Upgrade](equipment/material-upgrade.md), [Infusion](equipment/infusion.md), [Cursed Equipment](equipment/curses.md) |
+| Equipment | Quality, Affix Tiers, Material Upgrade, Infusion, Cursed equipment, and endgame Masterwork | [Quality & Affixes](equipment/quality-and-affixes.md), [Material Upgrade](equipment/material-upgrade.md), [Infusion](equipment/infusion.md), [Cursed Equipment](equipment/curses.md), [Masterwork](equipment/masterwork.md) |
 | Currency | How each Rune Stone is used and what it changes | [Equipment Currency](equipment/currency-workflow.md) |
 | Weapons | Base stats, flat-damage coefficients, Transmutations, variants, Rune-Cursed Weapons, and Weapon Skills | [Weapon Base Stats](reference/weapon-base-stats.md), [Weapon Transmutation](equipment/weapon-transmutation.md), [Special Weapon Variants](equipment/special-weapon-variants.md), [Rune-Cursed Weapons](equipment/rune-cursed-weapons.md) |
 | Combat | Damage order, armor, resistance, elements, Enchantments, and status effects | [Damage Calculation](combat/damage-pipeline.md), [Elemental Enchantments](combat/elemental-enchantments.md), [Elements & Resistances](combat/elements-and-resistances.md) |

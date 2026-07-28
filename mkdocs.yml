@@ -62,6 +62,7 @@ plugins:
             Special Weapon Variants: 特殊武器变体
             Rune-Cursed Weapons: 符文诅咒武器
             Alien Gem: 异化宝石
+            Masterwork: 装备精造
             Dropped Equipment Protection: 装备掉落保护
             Combat & Monsters: 战斗与怪物
             Damage Calculation: 伤害结算
@@ -118,6 +119,7 @@ nav:
       - Special Weapon Variants: equipment/special-weapon-variants.md
       - Rune-Cursed Weapons: equipment/rune-cursed-weapons.md
       - Alien Gem: equipment/alien-orb.md
+      - Masterwork: equipment/masterwork.md
       - Dropped Equipment Protection: equipment/drop-protection.md
   - Combat & Monsters:
       - Damage Calculation: combat/damage-pipeline.md

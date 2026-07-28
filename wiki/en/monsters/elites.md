@@ -107,6 +107,8 @@ Loot level follows the world monster-level cap: 50 by default; 75 after the With
 
 Celestial Fragment is independent: `1%` at two affixes, `5%` at three, and `15%` at four or more.
 
+Each Shaping Stone or Reinforcement Stone created by Elite bonus rewards also has its own `0.25%` chance to become the corresponding Celestial version. Multi-item rewards check each item separately.
+
 ## Complete Elite Affix List
 
 | Affix | Effect |

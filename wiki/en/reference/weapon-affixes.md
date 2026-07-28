@@ -2,6 +2,8 @@
 
 This page lists weapon affixes available from ordinary equipment generation and regular affix forging. Flat-damage ranges are base values at a `1.00` coefficient; see [Weapon Base Stats](weapon-base-stats.md#flat-damage-coefficients) for the actual coefficient of each Weapon Family and Variant.
 
+All ranges are unmasterworked base values. A masterworked affix displays `Tier+` and applies the item's Masterwork Quality multiplier; see [Masterwork](../equipment/masterwork.md).
+
 ## General Weapon Affixes
 
 | Display name | Eligible | T4 | T3 | T2 | T1 |

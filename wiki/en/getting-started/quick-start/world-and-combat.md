@@ -6,6 +6,8 @@ Monster Level combines area position, world time, dimension, boss progression, a
 
 `/rf level` displays the base Monster Level used at the current position. An individual monster may still have random or Elite bonus levels.
 
+GameMasters or the singleplayer owner can use `/rf level extra <1–100>` to add a world challenge level for monsters generated afterward. The command does not require Creative mode and raises the base-level cap by the same amount. See [Player Commands](../../reference/commands.md) for complete permissions and clearing.
+
 ## Elements
 
 Weapons can deal Physical, Fire, Frost, Lightning, and Holy Damage at the same time. Each element has its own target weaknesses, environment changes, and on-hit effect:
@@ -28,4 +30,3 @@ An Elite has 1–4 Elite Affixes. These can change defense, movement, offense, h
 - [Damage Calculation](../../combat/damage-pipeline.md)
 - [Elite Monsters](../../monsters/elites.md)
 - [Monster Drops](../../obtaining/monster-drops.md)
-

@@ -11,7 +11,7 @@ This section introduces Runeforged through its system relationships, explains wh
 | 3 | [Equipment Forging](equipment-forging.md) | Magic/Rare equipment, regular affixes, and Material Upgrade |
 | 4 | [Special Weapon Systems](special-weapons.md) | Rune-Cursed Weapons, Transmutation, and special variants |
 | 5 | [Curses & Infusion](curses-and-infusion.md) | Cursed variants, Alienation, and Infusion cycles |
-| 6 | [Legendary & Celestial Forging](legendary-and-celestial.md) | Legendary equipment, regular T0 affixes, and Celestial currency |
+| 6 | [Legendary & Celestial Forging](legendary-and-celestial.md) | Legendary equipment, regular T0 affixes, Masterwork, and Celestial currency |
 
 ## Data Reference
 

@@ -18,9 +18,16 @@
 
 每种天界通货的完整差异和配方统一列在装备通货页。
 
+## 装备精造
+
+天界塑形石可以从装备现有的普通主词条中随机精造最多 `2` 条；天界强化石则逐步提高精造品质。精造品质会按百分比放大这些词条的实际数值，普通上限为 `25.0`。
+
+精造不会增加词条数量或改变 Tier。异化精造装备时，还有机会把精造品质突破到 `30–50`。
+
 ## 详细内容
 
 - [品质与词条](../../equipment/quality-and-affixes.md)
+- [装备精造](../../equipment/masterwork.md)
 - [装备通货与天界配方](../../equipment/currency-workflow.md)
 - [装备材质升阶](../../equipment/material-upgrade.md)
 - [灌注系统](../../equipment/infusion.md)
