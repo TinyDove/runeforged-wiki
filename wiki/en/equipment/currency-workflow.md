@@ -53,7 +53,7 @@ When a weapon first becomes Rare and still has no direct damage affix, the newly
 
 Clears Runeforged forging and repairs durability according to the number of removed regular affixes.
 
-It cannot be used on Legendary equipment, any Cursed equipment (including Alien, Sealed, and Rune-Cursed), equipment carrying a Sealed Affix, or an item with no Runeforged equipment data. It clears quality, all mutable equipment affixes, and enchantments.
+It cannot be used on Legendary equipment, any Cursed equipment (including Alien and Rune-Cursed), equipment carrying a Sealed Affix, or an item with no Runeforged equipment data. It clears quality, all mutable equipment affixes, and enchantments.
 
 | Removed regular affixes | Maximum durability repaired |
 | ---: | ---: |
@@ -95,26 +95,23 @@ Rerolls the Legendary Affix on Legendary or Mythic equipment that already has on
 
 ## Sealed Gem
 
-Turns eligible Rare equipment into Sealed Cursed equipment, or rerolls the curse area of eligible Cursed equipment.
+Turns Rare equipment into Cursed equipment.
 
-Requirements:
-
-- at least one regular affix;
-- Rare equipment is eligible directly;
-- Cursed equipment must be Normal Cursed or Sealed Cursed; Alien and Rune-Cursed equipment are ineligible.
+**Eligible equipment:** Rare equipment with at least one regular affix.
 
 Results:
 
-- a Rare item becomes Sealed Cursed and preserves its regular affixes;
+- a Rare item becomes Cursed and preserves its regular affixes;
 - the curse area gains 2–3 T3–T1 affixes: `75%` for two, `25%` for three;
-- one negative curse is added;
-- another use on Normal or Sealed Cursed equipment rerolls the entire curse area and negative curse.
+- one negative curse is added.
 
-**Celestial version:** a Celestial Sealed Gem always creates three curse-area affixes, at least one of which is T1, and rerolls one negative curse. Sealed Gems are also ingredients for Origin Transmutation and Ancient Rune-Cursed Weapons.
+**Celestial version:** a Celestial Sealed Gem can empower Rare equipment or reshape Cursed equipment. The result has exactly three curse-area affixes, including at least one T1, plus a newly rolled negative curse. When reshaping, it preserves the main-area affixes and rebuilds the entire curse area.
+
+Sealed Gems are also ingredients for Origin Transmutation and Ancient Rune-Cursed Weapons.
 
 ## Infusion Gem
 
-Eligible non-Common equipment gains `25–100` Infusion Value while incomplete. At `100%`, an existing Infusion Affix can be replaced and progress is cleared. Normal Cursed equipment cannot reroll after receiving its first Infusion Affix; Nature Rune-Cursed Weapons can repeat the cycle. See [Infusion](infusion.md).
+Eligible non-Common equipment gains `25–100` Infusion Value while incomplete. At `100%`, an existing Infusion Affix can be replaced and progress is cleared. Cursed equipment cannot reroll after receiving its first Infusion Affix; Nature Rune-Cursed Weapons can repeat the cycle. See [Infusion](infusion.md).
 
 **Celestial version:** a Celestial Infusion Gem creates an Infusion Affix regardless of progress, then rolls one chosen affix's value three times and keeps the best. The target must still allow infusion; see [Infusion](infusion.md).
 
@@ -122,37 +119,39 @@ Infusion Gems are also ingredients for Triad Transmutation and Nature Rune-Curse
 
 ## Alien Gem
 
-Turns equipment into Alien-Cursed equipment and applies several random changes. See [Alien Gem](alien-orb.md) for the full change pool, T0 affixes, and restrictions.
+Turns equipment into Alien equipment and makes `1–5` random changes. A change may preserve the current affix state, replace or distort an affix, or add affixes; each Add Regular Affixes result attempts to add a random `1–5` compatible affixes. See [Alien Gem](alien-orb.md) for the full change pool, capacity, and T0 affixes.
 
-**Celestial version:** a Celestial Alien Gem follows the same regular-affix fill rule, then performs `4–6` random-change rolls; see [Celestial Alien Gem](alien-orb.md#celestial-alien-gem).
+**Celestial version:** a Celestial Alien Gem uses the same change pool and affix-capacity rules, then performs `4–6` random-change rolls; see [Celestial Alien Gem](alien-orb.md#celestial-alien-gem).
 
-## Targeted Currency
+## Non-Crafted Currency Version Chances
 
-Shaping Stones, Reinforcement Stones, Tempering Stones, and Ascension Stones can carry a specified affix. They use the same operation as the base currency, but the newly created affix is the one displayed on the currency.
+When monsters, chests, fishing, or another non-crafted source creates a currency, it first checks for a Celestial currency. Shaping Stones, Reinforcement Stones, and Tempering Stones that do not become Celestial can then become Advanced or Sealed currency. Each item in a multi-item reward checks separately.
 
-Four copies of the same base currency can craft one targeted version. Non-crafted base currency can also become targeted:
+| Base currency | Celestial currency | If it does not become Celestial |
+| --- | ---: | --- |
+| Shaping Stone | `0.25%` | Monster, chest, and Elite rewards: `5%` to become an Advanced Shaping Stone or Sealed Shaping Stone; fishing: `50%`. Both outcomes are equally likely |
+| Reinforcement Stone | `0.25%` | Monster, chest, and Elite rewards: `5%` to become an Advanced Reinforcement Stone or Sealed Reinforcement Stone; fishing: `50%`. Both outcomes are equally likely |
+| Tempering Stone | `0.5%` | Monster, chest, and Elite rewards: `5%` to become an Advanced Tempering Stone or Sealed Tempering Stone; fishing: `50%`. Both outcomes are equally likely |
+| Stripping Stone | `0.5%` | — |
+| Alien Gem, Sealed Gem, Infusion Gem, Penance Stone, Edict Stone, Ascension Stone | `1%` | — |
+| Reforging Stone, Celestial Fragment | — | — |
 
-| Source | Chance |
-| --- | ---: |
-| Ordinary drop | 5% |
-| Fishing | 50% |
+Advanced Shaping Stones, Advanced Reinforcement Stones, and Advanced Tempering Stones work like their regular counterparts and add their corresponding affix. Sealed Shaping Stones, Sealed Reinforcement Stones, and Sealed Tempering Stones also lock that affix's Tier.
 
-Some targeted Shaping, Reinforcement, and Tempering Stones also lock the affix Tier. Ascension Stones do not have a Sealed version.
-
-In item names, targeted Shaping, Reinforcement, and Tempering Stones appear as Advanced Shaping Stone, Advanced Reinforcement Stone, and Advanced Tempering Stone. Tier-locked targeted versions appear as Sealed Shaping Stone, Sealed Reinforcement Stone, and Sealed Tempering Stone.
+Four Shaping Stones craft one Advanced Shaping Stone. Reinforcement Stones and Tempering Stones work the same way, crafting an Advanced Reinforcement Stone or Advanced Tempering Stone.
 
 ## Celestial Currency Overview
 
-When a single non-crafted currency is generated, it first checks whether it becomes Celestial. Shaping and Reinforcement Stones use a `0.25%` chance, Tempering and Stripping Stones use `0.5%`, and other currencies with Celestial versions use `1%`. A successful Celestial conversion skips targeted and Sealed conversion.
+Four Ascension Stones craft one Celestial Ascension Stone directly. Other Celestial currencies use the corresponding base currency and a Celestial Fragment.
 
 | Currency | Difference from the base version |
 | --- | --- |
 | Celestial Shaping Stone | Randomly masterworks up to two existing regular main affixes; with two already selected, selects a different affix to masterwork |
 | Celestial Reinforcement Stone | Adds `1.0–4.0` Masterwork Quality up to the normal `25.0` cap; randomly masterworks one affix if none is selected |
-| Celestial Tempering Stone | Adds at least T1; has a `10%` chance to attempt an eligible regular T0 and falls back to T1 when none is available; targeted or Sealed versions follow their displayed rule |
+| Celestial Tempering Stone | Adds at least T1; has a `10%` chance to attempt an eligible regular T0 and falls back to T1 when none is available |
 | Celestial Stripping Stone | Removes the bottom regular affix in the displayed list |
-| Celestial Alien Gem | Fills regular affixes by the Alienation rule, then makes `4–6` random-change rolls |
-| Celestial Sealed Gem | Creates three curse-area affixes with at least one T1; a reroll rebuilds the entire curse area and negative curse |
+| Celestial Alien Gem | Uses the full Alienation change pool for `4–6` random-change rolls |
+| Celestial Sealed Gem | Gives Rare equipment three curse-area affixes with at least one T1; reshapes the entire curse area and negative curse on Cursed equipment |
 | Celestial Infusion Gem | Creates an Infusion Affix regardless of progress; chooses one affix and rolls its value three times, keeping the best |
 | Celestial Penance Stone | Replaces the top displayed affix among those tied for the lowest Tier; the new affix has a `5%` chance to attempt an eligible regular T0 |
 | Celestial Edict Stone | Among non-masterworked regular affixes, rerolls only the one with the lowest relative roll within its Tier; preserves masterworked affixes and every other regular or Legendary Affix |

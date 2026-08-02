@@ -10,8 +10,6 @@ Runeforged groups chests into T3, T2, and T1 reward tiers.
 
 Chest weapons and armor can generate Runeforged quality and affixes. Sword rewards have a `60%` chance to become a mod weapon family. A blank weapon has a `1%` chance to become Rune-Cursed, and generated equipment may carry one Sealed Affix.
 
-Each Shaping Stone or Reinforcement Stone generated as a chest reward has a `0.25%` chance to become its Celestial version. Multi-item rewards check each item separately; this does not change the base chest-reward chances below.
-
 ## T3 Rewards
 
 Independent currency chances:

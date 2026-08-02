@@ -1,13 +1,12 @@
 # Cursed Equipment
 
-Cursed is a separate equipment quality. Generated Normal and Sealed Cursed equipment generally contains regular affixes, curse-area affixes, and one negative curse; Alien and Rune-Cursed equipment use their own structures.
+Cursed is a separate equipment quality. Cursed equipment generally contains regular affixes, curse-area affixes, and one negative curse; Alien and Rune-Cursed equipment use their own structures.
 
 ## Core Rules
 
 - Cursed equipment cannot use ordinary forging currency to add or remove affixes.
 - It cannot be enchanted or repaired.
 - It can hold up to `8` regular and curse-area affixes. Negative curses, Sealed Affixes, Infusion Affixes, and Alien T0 affixes are displayed separately.
-- Special gems still work where their own rules allow them.
 
 ## Generated Cursed Equipment
 
@@ -19,16 +18,14 @@ A generated Cursed item normally has:
 - `2–3` curse-area affixes: `75%` for two, `25%` for three;
 - curse-area Tiers from T4 through T1;
 - one compatible negative curse;
-- `0–75%` initial Infusion Value;
-- a `10%` chance to immediately undergo 1–5 Alien changes.
+- `0–75%` initial Infusion Value.
 
 ## Cursed Variants
 
 | Variant | Main source | Structure and follow-up rules |
 | --- | --- | --- |
-| Normal Cursed | Monsters, chests, fishing, trades | Regular affixes, 2–3 curse-area affixes, one negative curse; eligible for Sealed Gem reroll or generated Alienation |
-| Sealed Cursed | Sealed Gem on eligible Rare or Cursed equipment | Preserves regular affixes; curse area uses T3–T1; another Sealed Gem rerolls the entire curse area and negative curse |
-| Alien-Cursed | Alien Gem or generated Alienation | 1–5 random changes, possibly T0, an extra maximum-value T2 Sealed Affix, or distortion; see [Alien Gem](alien-orb.md) |
+| Cursed equipment | Monsters, chests, fishing, trades, or a Sealed Gem on Rare equipment | Usually has regular affixes, 2–3 curse-area affixes, and one negative curse. A Sealed Gem preserves existing regular affixes and creates T3–T1 curse-area affixes; a Celestial Sealed Gem can reshape the curse area and negative curse |
+| Alien equipment | Monsters, chests, fishing, or an Alien Gem | 1–5 random changes that may preserve, strengthen, or weaken the current affix state, or produce T0, an extra maximum-value T2 Sealed Affix, or distortion; see [Alien Gem](alien-orb.md) |
 | Rune-Cursed | Blank weapon plus specified currency | Fixed archetype affixes and additional random affixes; see [Rune-Cursed Weapons](rune-cursed-weapons.md) |
 
 ## Weapon Negative Curses
@@ -62,4 +59,4 @@ Only compatible negative curses can appear. A bow cannot receive melee Attack Ra
 
 ## Infusion
 
-Normal, Sealed, and Alien-Cursed equipment can gain its first Infusion Affix but cannot reroll afterward. Nature Rune-Cursed Weapons use the complete repeatable cycle. See [Infusion](infusion.md).
+Cursed and Alien equipment can gain its first Infusion Affix but cannot reroll afterward. Nature Rune-Cursed Weapons use the complete repeatable cycle. See [Infusion](infusion.md).

@@ -1,10 +1,13 @@
 # Alien Gem
 
-An Alien Gem turns equipment into Alien-Cursed equipment, fills eligible regular-affix slots, and applies several random changes.
+An Alien Gem turns equipment into Alien equipment and applies several random changes. The result can be dramatically stronger, weaker, or keep its current affix state.
 
-## Use and Eligibility
+## Using an Alien Gem
 
-Combine one affixable item and one Alien Gem in a crafting grid. Non-Cursed equipment is eligible, as are Normal, Sealed, and Rune-Cursed equipment. Alien-Cursed equipment cannot repeat the process, except a Bloodthirst Rune-Cursed Weapon with remaining Alienations.
+Combine one Alien Gem with any of the following in a crafting grid:
+
+- affixable equipment that has not yet been Alienated, including Cursed and Rune-Cursed equipment;
+- a Bloodthirst Rune-Cursed Weapon with remaining Alienations.
 
 ## Guaranteed Changes
 
@@ -12,19 +15,16 @@ Combine one affixable item and one Alien Gem in a crafting grid. Non-Cursed equi
 - Durability is fully restored.
 - A Bloodthirst weapon consumes one remaining Alienation.
 
-## Regular-Affix Fill
-
-When used on Common, Magic, or Rare equipment, the gem first fills regular affixes: `0–2` existing affixes become `3`; `3–4` become `5`; equipment with `5` or more gains one, up to its limit. Legendary equipment and Rune-Cursed Weapons eligible for another Alienation skip this step.
-
 ## Random Changes
 
-A standard Alienation then makes `1–5` rolls. Each roll chooses equally among the changes currently included in the roll; if the selected change cannot take effect, that roll produces no corresponding result.
+A standard Alienation makes `1–5` random-change rolls. Each roll chooses equally among the changes currently included in the pool. The pool includes a blank change that preserves the current affix state, while every other change resolves from the item's current state.
 
 | Change | Result |
 | --- | --- |
+| Blank change | Preserves the current affix state |
 | Replace affix | Removes one random regular affix and rolls a compatible replacement |
 | Add negative curse | Adds one compatible negative curse if the original item had none; removes it if the original item already had one |
-| Add regular affix | Adds one compatible regular affix if below the limit |
+| Add regular affixes | Attempts to add a random `1–5` compatible affixes, limited by remaining capacity and the available affix pool |
 | Change Tier | Changes one regular affix to a different non-T0 Tier |
 | Reroll value | Rerolls one regular affix inside its existing Tier |
 | Add T0 | Adds one eligible Alien T0 if the item has no Alien T0 |
@@ -44,6 +44,10 @@ Minimum quality = 30 + (clamp(old quality, 5, 25) - 5) × 0.5
 ```
 
 An old quality of 5 or lower therefore produces `30–50`; an old quality of 25 produces `40–50`.
+
+## Affix Count
+
+When Add Regular Affixes is selected, it attempts to add a random `1–5` compatible affixes. The final number depends on remaining space and the available affix pool. Regular and curse-area affixes can total up to `8`, or up to `7` when the item retains a separate Legendary Affix.
 
 ## Weapon T0 Affixes
 
@@ -69,8 +73,4 @@ Negative-curse ranges are listed under [Cursed Equipment](curses.md).
 
 ## Celestial Alien Gem
 
-A Celestial Alien Gem uses the same regular-affix fill and then makes `4–6` random-change rolls.
-
-## Generated Alien Equipment
-
-Some Cursed equipment from monsters, chests, or fishing has a `10%` chance to become Alien immediately and receive `1–5` random changes.
+A Celestial Alien Gem uses the same change pool and affix-capacity rules, then makes `4–6` random-change rolls.

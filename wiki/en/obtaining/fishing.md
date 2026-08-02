@@ -15,7 +15,7 @@ This reward cannot trigger outside open water.
 | Reward | Weight |
 | --- | ---: |
 | Rare Iron weapon | 40 |
-| Alien-Cursed Iron weapon | 10 |
+| Alien Iron weapon | 10 |
 | Shaping Stone | 10 |
 | Reinforcement Stone | 10 |
 | Reforging Stone | 10 |
@@ -36,9 +36,5 @@ These are relative weights, not percentages; servers can change both the pool an
 Weapons are selected equally from Iron Sword, Iron Axe, Iron Rapier, Iron Dagger, Iron Greatsword, and Iron Scythe.
 
 - A Rare weapon generates Rare quality and matching regular affixes.
-- An Alien-Cursed weapon generates directly as Alien-Cursed.
+- An Alien Iron weapon is obtained directly as Alien equipment.
 - Either has a `1%` chance to become Rune-Cursed and may also become a special weapon variant or carry one Sealed Affix.
-
-## Currency Rewards
-
-Every single fished currency that has a Celestial version checks that conversion first: Shaping and Reinforcement Stones use `0.25%`, Tempering and Stripping Stones use `0.5%`, and the other supported currencies use `1%`. A successful Celestial conversion skips targeted and Sealed conversion. Shaping, Reinforcement, Tempering, and Ascension Stones that remain ordinary then have a `50%` chance to become targeted versions; supported currencies may also lock the displayed Tier.

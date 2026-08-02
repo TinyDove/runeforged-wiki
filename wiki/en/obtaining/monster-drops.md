@@ -19,8 +19,6 @@ Each currency is checked independently. Below its minimum level the chance is ze
 | Infusion Gem | 20 | 0.12% | 0.20% | 0.24% |
 | Ascension Stone | 30 | 0.04% | 0.08% | 0.096% |
 
-After one of these rolls creates a single Shaping Stone or Reinforcement Stone, that currency has a further `0.25%` chance to become its Celestial version. This secondary conversion does not change the base chances above; see [Equipment Currency](../equipment/currency-workflow.md).
-
 ## Generated Equipment Quality
 
 | Monster level | Common | Magic | Rare |

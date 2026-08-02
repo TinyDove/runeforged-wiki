@@ -62,9 +62,3 @@ Alienation protects Masterwork state:
 - Tier changes, within-Tier value rerolls, and highest-Tier distortion skip masterworked affixes.
 - If affix replacement selects a masterworked affix, its Masterwork selection transfers to the replacement.
 - Equipment with effective Masterwork can roll the Masterwork overlimit change described in [Alien Gem](alien-orb.md).
-
-## Obtaining the Currency
-
-Each currency can be crafted from its base currency and a Celestial Fragment. A single non-crafted Shaping Stone or Reinforcement Stone also has a `0.25%` chance to become its Celestial version.
-
-See [Equipment Currency](currency-workflow.md) for complete recipes and the other Celestial currencies.

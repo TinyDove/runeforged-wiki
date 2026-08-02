@@ -45,7 +45,7 @@
 | 传说词条 | 升华石、传说装备生成 | [装备通货](currency-workflow.md) |
 | 封印词条 | 封印宝石 | [装备通货](currency-workflow.md) |
 | 灌注词条 | 战斗灌注、注灵宝石 | [灌注系统](infusion.md) |
-| 诅咒区与负面词条 | 天然诅咒、封印宝石 | [诅咒系统](curses.md) |
+| 诅咒区与负面词条 | 掉落等来源的诅咒装备、封印宝石 | [诅咒系统](curses.md) |
 | 异化 T0 与负面词条 | 异化宝石 | [异化宝石](alien-orb.md) |
 | 符文固定词条 | 符文诅咒武器 | [符文诅咒武器](rune-cursed-weapons.md) |
 

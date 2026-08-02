@@ -14,7 +14,7 @@ Regular T0 can appear on equipment from non-crafted sources, or when Alien disto
 
 ## Celestial Currency
 
-Celestial versions provide stronger, more certain, or more focused forms of their base currency. A Celestial Tempering Stone adds at least T1, a Celestial Sealed Gem creates three curse-area affixes with at least one T1, and a Celestial Infusion Gem performs a direct stronger Infusion.
+Celestial versions provide stronger, more certain, or more focused forms of their base currency. A Celestial Tempering Stone adds at least T1; a Celestial Sealed Gem creates three curse-area affixes with at least one T1 and can reshape the curse area of Cursed equipment; a Celestial Infusion Gem performs a direct stronger Infusion.
 
 All Celestial currency differences and recipes are listed together on the Equipment Currency page.
 

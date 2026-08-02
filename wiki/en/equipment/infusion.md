@@ -28,18 +28,18 @@ Each receiving item then rolls its own `0.5–1.5` multiplier. The weapon receiv
 | Other eligible weapons | 200 |
 
 - Armor capacity is `50%` of the matching material's base capacity.
-- A Normal Cursed item's first Infusion requires `50%` of base weapon capacity.
+- A Cursed item's first Infusion requires `50%` of base weapon capacity.
 - After an item already has an Infusion Affix, its next cycle requires `50%` capacity.
 - Nature Rune-Cursed Weapons use full weapon capacity and support repeated cycles.
 
-For example, an Iron weapon requires `200`, Iron armor `100`, and a Normal Cursed Iron weapon `100`. Iron armor preparing a reroll after gaining an Infusion Affix requires `50`.
+For example, an Iron weapon requires `200`, Iron armor `100`, and a Cursed Iron weapon `100`. Iron armor preparing a reroll after gaining an Infusion Affix requires `50`.
 
 ## At 100%
 
 - No Infusion Affix: the first affix is created immediately and progress returns to `0%`.
 - Existing Infusion Affix: progress remains at `100%`, ready for reinfusion.
 - Using an Infusion Gem at `100%` replaces the affix and clears progress.
-- Normal, Sealed, and Alien-Cursed equipment ends after its first Infusion Affix and cannot accumulate or reroll again.
+- Cursed and Alien equipment ends after its first Infusion Affix and cannot accumulate or reroll again.
 - Nature Rune-Cursed Weapons can keep accumulating, reroll at `100%`, or use an Infusion Gem directly.
 
 Generated Cursed equipment may begin with `0–75%` Infusion Value.
@@ -51,7 +51,7 @@ Generated Cursed equipment may begin with `0–75%` Infusion Value.
 | Infusion Gem | Adds `25–100` Infusion Value while incomplete; rerolls at `100%`; directly infuses a Nature Rune-Cursed Weapon and rolls the chosen affix's value three times, keeping the best |
 | Celestial Infusion Gem | Creates an Infusion Affix regardless of progress; chooses the affix once and rolls its value three times, keeping the best |
 
-A Celestial Infusion Gem cannot unlock a Normal Cursed item whose one infusion is already complete.
+A Celestial Infusion Gem cannot unlock a Cursed item whose one infusion is already complete.
 
 ## Weapon Infusion Affixes
 

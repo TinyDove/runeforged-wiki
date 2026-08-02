@@ -15,9 +15,9 @@ See [Equipment Currency](../equipment/currency-workflow.md) for complete conditi
 | Edict Stone | Rerolls non-masterworked regular-affix values | Preserves names, Tiers, and count; skips masterworked affixes |
 | Ascension Stone | Makes equipment Legendary and fills affixes | Common, Magic, or Rare equipment |
 | Celestial Fragment | Rerolls a Legendary Affix | Legendary or Mythic equipment with one; Mythic remains maximum-value T0 |
-| Sealed Gem | Creates Sealed Cursed equipment or rerolls its curse area | Eligible Rare, Normal Cursed, or Sealed Cursed equipment |
+| Sealed Gem | Turns Rare equipment into Cursed equipment with 2–3 T3–T1 curse-area affixes and one negative curse | Rare equipment with at least one regular affix |
 | Infusion Gem | Adds infusion progress or rerolls an Infusion Affix | Non-Common equipment eligible for infusion |
-| Alien Gem | Creates Alien-Cursed equipment and applies random changes | See the Alien Gem page |
+| Alien Gem | Creates Alien equipment with `1–5` random changes; one Add Regular Affixes result can attempt `1–5` additions | See the Alien Gem page |
 
 Rune Fragments are crafting ingredients and cannot be applied directly to equipment.
 
@@ -31,8 +31,8 @@ Ten base currencies have Celestial versions. Reforging Stones, Celestial Fragmen
 | Celestial Reinforcement Stone | Adds `1.0–4.0` Masterwork Quality; selects one affix if none is masterworked | Non-Cursed equipment with at least one regular main affix; normal cap 25.0 |
 | Celestial Tempering Stone | Adds at least T1 and has a `10%` chance to attempt an eligible regular T0 | Same as Tempering Stone |
 | Celestial Stripping Stone | Removes the bottom regular affix in the displayed list | At least one regular affix |
-| Celestial Alien Gem | Fills regular affixes, then makes `4–6` random-change rolls | Same as Alien Gem |
-| Celestial Sealed Gem | Creates three curse-area affixes with at least one T1 | Same as Sealed Gem |
+| Celestial Alien Gem | Uses the full Alienation change pool for `4–6` random-change rolls | Same as Alien Gem |
+| Celestial Sealed Gem | Creates three curse-area affixes with at least one T1; reshapes the entire curse area and negative curse on Cursed equipment | Rare or Cursed equipment |
 | Celestial Infusion Gem | Creates an Infusion Affix regardless of progress and rolls one affix's value three times, keeping the best | The target must still allow infusion |
 | Celestial Penance Stone | Replaces the top displayed lowest-Tier affix and has a `5%` chance to attempt regular T0 | At least one regular affix |
 | Celestial Edict Stone | Rerolls only the lowest relative roll among non-masterworked regular affixes | At least one non-masterworked regular affix |
