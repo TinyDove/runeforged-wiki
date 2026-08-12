@@ -1,6 +1,6 @@
 # Runeforged Wiki
 
-**Runeforged 0.2.2 · Minecraft 26.1, 26.2, and 26.3**
+**Runeforged 0.2.2 · Minecraft 1.21.11, 26.1, 26.2, and 26.3**
 
 Runeforged is a vanilla-plus ARPG mod centered on equipment growth. Equipment can gain quality, affixes, and special states, while monsters scale with world progression and may carry elite abilities, elemental resistances, and special rewards.
 
