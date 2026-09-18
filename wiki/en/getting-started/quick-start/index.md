@@ -9,9 +9,10 @@ This section introduces Runeforged through its system relationships, explains wh
 | 1 | [Weapons & Skills](weapons.md) | Four new weapon families, Weapon Skills, and offhand attacks |
 | 2 | [World & Combat](world-and-combat.md) | Monster Levels, elements, resistance, and Elites |
 | 3 | [Equipment Forging](equipment-forging.md) | Magic/Rare equipment, regular affixes, and Material Upgrade |
-| 4 | [Special Weapon Systems](special-weapons.md) | Rune-Cursed Weapons, Transmutation, and special variants |
-| 5 | [Curses & Infusion](curses-and-infusion.md) | Cursed variants, Alienation, and Infusion cycles |
-| 6 | [Legendary & Celestial Forging](legendary-and-celestial.md) | Legendary equipment, regular T0 affixes, Masterwork, and Celestial currency |
+| 4 | [Infused Gems](infused-gems.md) | Four gem effects, affix limits, and crafting |
+| 5 | [Special Weapon Systems](special-weapons.md) | Rune-Cursed Weapons, Transmutation, and special variants |
+| 6 | [Curses & Infusion](curses-and-infusion.md) | Cursed variants, Alienation, and Infusion cycles |
+| 7 | [Legendary & Celestial Forging](legendary-and-celestial.md) | Legendary equipment, regular T0 affixes, Masterwork, and Celestial currency |
 
 ## Data Reference
 

@@ -9,9 +9,10 @@
 | 1 | [武器与战技](weapons.md) | 四种新增武器、武器战技与副手攻击 |
 | 2 | [世界与战斗](world-and-combat.md) | 怪物等级、元素、抗性与精英怪 |
 | 3 | [装备锻造](equipment-forging.md) | 魔法/稀有装备、普通词条、材质升阶 |
-| 4 | [特殊武器系统](special-weapons.md) | 符文诅咒、质变与特殊武器变体 |
-| 5 | [诅咒与灌注](curses-and-infusion.md) | 诅咒类型、异化和灌注循环 |
-| 6 | [传说与天界锻造](legendary-and-celestial.md) | 传说装备、普通词条 T0、精造与天界通货 |
+| 4 | [注灵宝石改造](infused-gems.md) | 四种宝石的用途、词条上限与合成方式 |
+| 5 | [特殊武器系统](special-weapons.md) | 符文诅咒、质变与特殊武器变体 |
+| 6 | [诅咒与灌注](curses-and-infusion.md) | 诅咒类型、异化和灌注循环 |
+| 7 | [传说与天界锻造](legendary-and-celestial.md) | 传说装备、普通词条 T0、精造与天界通货 |
 
 ## 数据查询
 

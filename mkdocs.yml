@@ -106,6 +106,7 @@ nav:
           - Weapons & Skills: getting-started/quick-start/weapons.md
           - World & Combat: getting-started/quick-start/world-and-combat.md
           - Equipment Forging: getting-started/quick-start/equipment-forging.md
+          - Infused Gems: getting-started/quick-start/infused-gems.md
           - Special Weapon Systems: getting-started/quick-start/special-weapons.md
           - Curses & Infusion: getting-started/quick-start/curses-and-infusion.md
           - Legendary & Celestial Forging: getting-started/quick-start/legendary-and-celestial.md
@@ -113,8 +114,8 @@ nav:
   - Equipment:
       - Equipment Quality & Affixes: equipment/quality-and-affixes.md
       - Equipment Currency: equipment/currency-workflow.md
-      - Infused Gems: equipment/infused-gems.md
       - Equipment Material Upgrade: equipment/material-upgrade.md
+      - Infused Gems: equipment/infused-gems.md
       - Infusion: equipment/infusion.md
       - Cursed Equipment: equipment/curses.md
       - Weapon Transmutation: equipment/weapon-transmutation.md
