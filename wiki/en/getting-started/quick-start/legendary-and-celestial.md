@@ -16,7 +16,7 @@ Regular T0 can appear on equipment from non-crafted sources, or when Alien disto
 
 Celestial versions provide stronger, more certain, or more focused forms of their base currency. A Celestial Tempering Stone adds at least T1; a Celestial Reforging Stone clears the item but retains one randomly chosen affix among its highest-Tier regular main affixes, including that affix's name, Tier, and value; a Celestial Sealed Gem creates three curse-area affixes with at least one T1 and can reshape the curse area of Cursed equipment; a Celestial Infusion Gem performs a direct stronger Infusion.
 
-Celestial currencies can also be used in Rune-Cursed recipes. The outcome is defined per archetype rather than by one shared Tier rule; Foundation and Military also receive a second random affix. See the Rune-Cursed Weapons page for the eight exact result sets. All other Celestial currency differences and recipes are listed together on the Equipment Currency page.
+Celestial currencies can also be used in Rune-Cursed recipes. The eight archetypes use different Celestial parameters; Foundation and Military also receive a second random affix. See the Rune-Cursed Weapons page for the eight exact result sets. All other Celestial currency differences and recipes are listed together on the Equipment Currency page.
 
 ## Masterwork
 

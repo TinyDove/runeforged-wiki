@@ -119,4 +119,4 @@ Affixable equipment obtained from merchants generates with these weights:
 - 27% Rare
 - 3% Legendary
 
-Merchant weapons may become mod weapon families and can receive Cursed, Alien, or Sealed properties. Eligible generated merchant equipment also uses the `1%` total Infused Gem chance, but villagers and wandering traders do not sell the four finished gems directly.
+Merchant weapons may become mod weapon families and can receive Cursed, Alien, or Sealed properties. Eligible generated merchant equipment also uses the `1%` total Infused Gem chance.
