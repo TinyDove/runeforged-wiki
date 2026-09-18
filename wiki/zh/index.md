@@ -1,6 +1,7 @@
 # Runeforged 中文 Wiki
 
-**适用模组版本：0.2.2　Minecraft：1.21.11、26.1、26.2 与 26.3**
+!!! warning "未发布的 0.2.3 草稿"
+    本分支记录 Minecraft 26.1 当前开发版 Runeforged 0.2.3。公开发布的 0.2.2 仍支持 Minecraft 1.21.11、26.1、26.2 与 26.3；本文新增的 0.2.3 系统尚未移植到其他版本线。
 
 Runeforged（符文锻造）是一个围绕装备成长构建的原版+ ARPG 模组。装备会获得品质、词条和特殊状态；玩家可以用符文石逐步塑造装备，也会面对随世界进度增强的怪物、精英能力、元素抗性与特殊掉落。
 
@@ -12,7 +13,7 @@ Runeforged（符文锻造）是一个围绕装备成长构建的原版+ ARPG 模
 
 | 系统 | 内容 | 页面 |
 | --- | --- | --- |
-| 装备 | 品质、词条 Tier、材质升阶、灌注、诅咒与终局精造 | [品质与词条](equipment/quality-and-affixes.md)、[材质升阶](equipment/material-upgrade.md)、[灌注系统](equipment/infusion.md)、[诅咒系统](equipment/curses.md)、[装备精造](equipment/masterwork.md) |
+| 装备 | 品质、词条 Tier、注灵宝石改造、材质升阶、灌注、诅咒与终局精造 | [品质与词条](equipment/quality-and-affixes.md)、[注灵宝石改造](equipment/infused-gems.md)、[材质升阶](equipment/material-upgrade.md)、[灌注系统](equipment/infusion.md)、[诅咒系统](equipment/curses.md)、[装备精造](equipment/masterwork.md) |
 | 通货 | 塑形石等通货的用法、条件与结果 | [符文石与装备塑造](equipment/currency-workflow.md) |
 | 武器 | 基础属性、点伤系数、质变、特殊变体、符文诅咒与战技 | [武器基础数据](reference/weapon-base-stats.md)、[武器质变](equipment/weapon-transmutation.md)、[特殊武器变体](equipment/special-weapon-variants.md)、[符文诅咒武器](equipment/rune-cursed-weapons.md) |
 | 战斗 | 伤害顺序、护甲、抗性、元素、附魔与状态 | [伤害结算](combat/damage-pipeline.md)、[元素附魔](combat/elemental-enchantments.md)、[元素、抗性与状态](combat/elements-and-resistances.md) |

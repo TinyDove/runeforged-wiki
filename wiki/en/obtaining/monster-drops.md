@@ -17,7 +17,10 @@ Each currency is checked independently. Below its minimum level the chance is ze
 | Edict Stone | 25 | 0.08% | 0.15% | 0.18% |
 | Sealed Gem | 20 | 0.12% | 0.20% | 0.24% |
 | Infusion Gem | 20 | 0.12% | 0.20% | 0.24% |
+| Infused Gem pool | 20 | 0.12% | 0.20% | 0.24% |
 | Ascension Stone | 30 | 0.04% | 0.08% | 0.096% |
+
+An Infused Gem pool success awards one of Infused Obsidian, Amethyst, Lapis Lazuli, or Ruby with equal probability; the listed chance is for the pool as a whole, not for each gem.
 
 ## Generated Equipment Quality
 
@@ -27,4 +30,4 @@ Each currency is checked independently. Below its minimum level the chance is ze
 | 16–35 | 30% | 50% | 20% |
 | 36+ | 0% | 60% | 40% |
 
-These are initial weights for ordinary generated equipment. Elite and special sources use additional rules; see [Elite Monsters](../monsters/elites.md).
+These are initial weights for ordinary generated equipment. Before affixes are rolled, eligible generated weapons and armor have a `1%` total chance to receive one of the four Infused Gems, chosen equally. Rune-Cursed equipment is excluded. Elite and special sources use additional rules; see [Elite Monsters](../monsters/elites.md).

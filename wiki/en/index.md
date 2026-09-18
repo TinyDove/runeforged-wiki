@@ -1,6 +1,7 @@
 # Runeforged Wiki
 
-**Runeforged 0.2.2 · Minecraft 1.21.11, 26.1, 26.2, and 26.3**
+!!! warning "Unreleased 0.2.3 draft"
+    This branch documents the current Runeforged 0.2.3 development build for Minecraft 26.1. The public 0.2.2 release remains available for Minecraft 1.21.11, 26.1, 26.2, and 26.3; the new 0.2.3 systems described here have not yet been ported to the other version lines.
 
 Runeforged is a vanilla-plus ARPG mod centered on equipment growth. Equipment can gain quality, affixes, and special states, while monsters scale with world progression and may carry elite abilities, elemental resistances, and special rewards.
 
@@ -12,7 +13,7 @@ For a first reading, begin with [Quick Start](getting-started/quick-start/index.
 
 | System | Contents | Pages |
 | --- | --- | --- |
-| Equipment | Quality, Affix Tiers, Material Upgrade, Infusion, Cursed equipment, and endgame Masterwork | [Quality & Affixes](equipment/quality-and-affixes.md), [Material Upgrade](equipment/material-upgrade.md), [Infusion](equipment/infusion.md), [Cursed Equipment](equipment/curses.md), [Masterwork](equipment/masterwork.md) |
+| Equipment | Quality, Affix Tiers, Infused Gems, Material Upgrade, Infusion, Cursed equipment, and endgame Masterwork | [Quality & Affixes](equipment/quality-and-affixes.md), [Infused Gems](equipment/infused-gems.md), [Material Upgrade](equipment/material-upgrade.md), [Infusion](equipment/infusion.md), [Cursed Equipment](equipment/curses.md), [Masterwork](equipment/masterwork.md) |
 | Currency | How each Rune Stone is used and what it changes | [Equipment Currency](equipment/currency-workflow.md) |
 | Weapons | Base stats, flat-damage coefficients, Transmutations, variants, Rune-Cursed Weapons, and Weapon Skills | [Weapon Base Stats](reference/weapon-base-stats.md), [Weapon Transmutation](equipment/weapon-transmutation.md), [Special Weapon Variants](equipment/special-weapon-variants.md), [Rune-Cursed Weapons](equipment/rune-cursed-weapons.md) |
 | Combat | Damage order, armor, resistance, elements, Enchantments, and status effects | [Damage Calculation](combat/damage-pipeline.md), [Elemental Enchantments](combat/elemental-enchantments.md), [Elements & Resistances](combat/elements-and-resistances.md) |

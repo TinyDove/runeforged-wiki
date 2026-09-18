@@ -102,10 +102,12 @@ Loot level follows the world monster-level cap: 50 by default; 75 after the With
 | --- | --- |
 | 1 | Roll 1–2 times from Shaping Stone ×1 / Reinforcement Stone ×1 / Reforging Stone ×1; then 1–2 more 50% rolls from the same pool |
 | 2 | Guaranteed 1–2 Tempering Stones; then 1–2 50% rolls from Tempering ×1 / Stripping ×1 / Alien Gem ×1 / Reforging ×1 / Reinforcement ×2 / Shaping ×2 |
-| 3 | Guaranteed 1–2 Tempering and 1–2 Stripping Stones; 2–3 50% rolls from the two-affix pool; 25% for one Penance Stone / Edict Stone / Sealed Gem / Infusion Gem |
-| 4+ | 3–5 rolls from Tempering ×1 / Alien Gem ×1 / Reforging ×1 / Reinforcement ×2 / Shaping ×2 / Stripping ×1; one guaranteed Penance/Edict/Sealed/Infusion item with 25% for another; 10% for one Ascension Stone |
+| 3 | Guaranteed 1–2 Tempering and 1–2 Stripping Stones; 2–3 50% rolls from the two-affix pool; 25% for one Penance Stone / Edict Stone / Sealed Gem / Infusion Gem / Infused Gem pool result |
+| 4+ | 3–5 rolls from Tempering ×1 / Alien Gem ×1 / Reforging ×1 / Reinforcement ×2 / Shaping ×2 / Stripping ×1; one guaranteed Penance/Edict/Sealed/Infusion/Infused Gem pool result with 25% for another; 10% for one Ascension Stone |
 
 Celestial Fragment is independent: `1%` at two affixes, `5%` at three, and `15%` at four or more.
+
+Each Infused Gem pool result selects Infused Obsidian, Amethyst, Lapis Lazuli, or Ruby with equal probability.
 
 ## Complete Elite Affix List
 

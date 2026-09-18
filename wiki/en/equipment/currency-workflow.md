@@ -20,6 +20,8 @@ These recipes use a crafting table. Counts are totals for the complete recipe. C
 | Infusion Gem | 6 Lapis Lazuli, 2 Gold Ingots, 1 Diamond |
 | Ascension Stone | 4 Gold Ingots, 4 Diamonds, 1 Netherite Ingot |
 
+Four [Infused Gems](infused-gems.md) are also craftable. Each uses one ordinary Infusion Gem in the center and eight matching materials in the outer ring.
+
 ## Quality and Regular-Affix Count
 
 | Quality | Regular affixes |
@@ -28,6 +30,8 @@ These recipes use a crafting table. Counts are totals for the complete recipe. C
 | Magic | 1–3 |
 | Rare | 4–5 |
 | Legendary | 5, plus a Legendary Affix |
+
+These are the normal limits. Infused Obsidian raises the Rare-or-higher regular-affix capacity to six; the other three Infused Gems lower it to four. Magic remains capped at three.
 
 ## Shaping Stone
 
@@ -64,6 +68,10 @@ It cannot be used on Legendary equipment, any Cursed equipment (including Alien 
 | 5 or more | 100% |
 
 At a Smithing Table, a Reforging Stone also has a separate use: combine it with target equipment and a higher-material blank weapon of the same family or armor of the same slot for [Equipment Material Upgrade](material-upgrade.md). Material Upgrade does not perform the clearing or repair operation described above.
+
+Both ordinary and Celestial Reforging remove an [Infused Gem](infused-gems.md). A gem-modified Common item with no Runeforged equipment data can still be reforged to remove the gem.
+
+**Celestial version:** a Celestial Reforging Stone first follows the ordinary clearing, repair, and eligibility rules, then retains one regular main affix from the item's highest Tier. Ties are resolved randomly. The retained affix keeps its name, Tier, and rolled value, and the result is Magic equipment with that single regular affix. If no regular affix can be retained, the result is the same as ordinary Reforging.
 
 ## Stripping Stone
 
@@ -133,8 +141,8 @@ When monsters, chests, fishing, or another non-crafted source creates a currency
 | Reinforcement Stone | `0.25%` | Monster, chest, and Elite rewards: `5%` to become an Advanced Reinforcement Stone or Sealed Reinforcement Stone; fishing: `50%`. Both outcomes are equally likely |
 | Tempering Stone | `0.5%` | Monster, chest, and Elite rewards: `5%` to become an Advanced Tempering Stone or Sealed Tempering Stone; fishing: `50%`. Both outcomes are equally likely |
 | Stripping Stone | `0.5%` | — |
-| Alien Gem, Sealed Gem, Infusion Gem, Penance Stone, Edict Stone, Ascension Stone | `1%` | — |
-| Reforging Stone, Celestial Fragment | — | — |
+| Reforging Stone, Alien Gem, Sealed Gem, Infusion Gem, Penance Stone, Edict Stone, Ascension Stone | `1%` | — |
+| Celestial Fragment | — | — |
 
 Advanced Shaping Stones, Advanced Reinforcement Stones, and Advanced Tempering Stones work like their regular counterparts and add their corresponding affix. Sealed Shaping Stones, Sealed Reinforcement Stones, and Sealed Tempering Stones also lock that affix's Tier.
 
@@ -149,6 +157,7 @@ Four Ascension Stones craft one Celestial Ascension Stone directly. Other Celest
 | Celestial Shaping Stone | Randomly masterworks up to two existing regular main affixes; with two already selected, selects a different affix to masterwork |
 | Celestial Reinforcement Stone | Adds `1.0–4.0` Masterwork Quality up to the normal `25.0` cap; randomly masterworks one affix if none is selected |
 | Celestial Tempering Stone | Adds at least T1; has a `10%` chance to attempt an eligible regular T0 and falls back to T1 when none is available |
+| Celestial Reforging Stone | Retains one randomly selected regular main affix from the highest Tier, preserving its name, Tier, and value; the result is single-affix Magic equipment |
 | Celestial Stripping Stone | Removes the bottom regular affix in the displayed list |
 | Celestial Alien Gem | Uses the full Alienation change pool for `4–6` random-change rolls |
 | Celestial Sealed Gem | Gives Rare equipment three curse-area affixes with at least one T1; reshapes the entire curse area and negative curse on Cursed equipment |
@@ -184,6 +193,7 @@ Place at least two Runeforged items with regular affixes in a 2×2 or 3×3 craft
 | 1 Celestial Fragment + 1 Shaping Stone | 1 Celestial Shaping Stone |
 | 1 Celestial Fragment + 1 Reinforcement Stone | 1 Celestial Reinforcement Stone |
 | 1 Celestial Fragment + 1 Tempering Stone | 1 Celestial Tempering Stone |
+| 1 Celestial Fragment + 1 Reforging Stone | 1 Celestial Reforging Stone |
 | 1 Celestial Fragment + 1 Stripping Stone | 1 Celestial Stripping Stone |
 | 1 Celestial Fragment + 1 Penance Stone | 1 Celestial Penance Stone |
 | 1 Celestial Fragment + 1 Edict Stone | 1 Celestial Edict Stone |

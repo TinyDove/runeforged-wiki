@@ -2,7 +2,7 @@
 
 ## Equipment Quality
 
-| Quality | Color | Regular affixes | Regular currency use |
+| Quality | Color | Base regular affixes | Regular currency use |
 | --- | --- | ---: | --- |
 | Common | White | 0 | Yes |
 | Magic | Blue | 1–3 | Yes |
@@ -12,6 +12,8 @@
 | Cursed | Purple | Depends on source | Usually no |
 
 Quality affects the chance of rolling a higher affix Tier, but does not guarantee the highest Tier.
+
+The table shows capacity without an [Infused Gem](infused-gems.md). At Rare quality or higher, Infused Obsidian raises regular-affix capacity to `6`, while Infused Amethyst, Lapis Lazuli, and Ruby reduce it to `4`. Common remains at `0` and Magic remains capped at `3`. These changes apply only to regular main affixes, not special-affix layers.
 
 ## Affix Tiers
 
@@ -39,6 +41,7 @@ See [Masterwork](masterwork.md) for the multiplier, Celestial Shaping and Reinfo
 | Legendary Affix | Ascension Stone or generated Legendary equipment | [Equipment Currency](currency-workflow.md) |
 | Sealed Affix | Sealed Gem | [Equipment Currency](currency-workflow.md) |
 | Infusion Affix | Combat infusion or Infusion Gem | [Infusion](infusion.md) |
+| Infused Gem modifier | Infused Obsidian, Amethyst, Lapis Lazuli, or Ruby | [Infused Gems](infused-gems.md) |
 | Curse-area and negative affixes | Generated Cursed equipment or Sealed Gem | [Cursed Equipment](curses.md) |
 | Alien T0 and distorted affixes | Alien Gem | [Alien Gem](alien-orb.md) |
 | Rune fixed affixes | Rune-Cursed Weapons | [Rune-Cursed Weapons](rune-cursed-weapons.md) |

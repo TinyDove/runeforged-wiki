@@ -2,7 +2,7 @@
 
 ## Early Qualities
 
-Common equipment has no random affixes. A Shaping Stone adds the first affix and makes it Magic. Reinforcement Stones extend Magic equipment to at most three affixes. Tempering Stones continue adding affixes; at four the item becomes Rare, with a regular-affix limit of five.
+Common equipment has no random affixes. A Shaping Stone adds the first affix and makes it Magic. Reinforcement Stones extend Magic equipment to at most three affixes. Tempering Stones continue adding affixes; at four the item becomes Rare. Its base regular-affix limit is five, but an Infused Gem can change the Rare-or-higher limit to four or six.
 
 Regular affixes use T4, T3, T2, and T1. Name, Tier, and the value rolled inside that Tier are separate; two copies of the same T1 affix may have different values.
 
@@ -23,7 +23,7 @@ At a Smithing Table, a Reforging Stone, the target equipment, and a higher-mater
 
 - [Equipment Quality & Affixes](../../equipment/quality-and-affixes.md)
 - [Equipment Currency](../../equipment/currency-workflow.md)
+- [Infused Gems](../../equipment/infused-gems.md)
 - [Equipment Material Upgrade](../../equipment/material-upgrade.md)
 - [Weapon Affixes](../../reference/weapon-affixes.md)
 - [Armor Affixes](../../reference/armor-affixes.md)
-

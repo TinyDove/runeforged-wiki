@@ -8,7 +8,7 @@ Runeforged groups chests into T3, T2, and T1 reward tiers.
 - **T2:** Desert Pyramid, Stronghold, Nether Fortress, Woodland Mansion, ordinary Trial Chamber rewards.
 - **T3:** Mineshaft, village houses, Ruined Portal, and lower-tier shipwreck/ocean-ruin chests.
 
-Chest weapons and armor can generate Runeforged quality and affixes. Sword rewards have a `60%` chance to become a mod weapon family. A blank weapon has a `1%` chance to become Rune-Cursed, and generated equipment may carry one Sealed Affix.
+Chest weapons and armor can generate Runeforged quality and affixes. Sword rewards have a `60%` chance to become a mod weapon family. A blank weapon has a `1%` chance to become Rune-Cursed, and generated equipment may carry one Sealed Affix. Eligible non-Rune equipment also has a `1%` total chance to carry one of the four Infused Gems.
 
 ## T3 Rewards
 
@@ -21,7 +21,7 @@ Independent currency chances:
 - Stripping Stone `1%`
 - Alien Gem `2%`
 
-Ultra-rare pool: `0.15%` total trigger chance. Penance Stone, Celestial Fragment, Edict Stone, Sealed Gem, and Infusion Gem each have weight 40; Ascension Stone has weight 20.
+Ultra-rare pool: `0.15%` total trigger chance. Penance Stone, Celestial Fragment, Edict Stone, Sealed Gem, Infusion Gem, and the Infused Gem pool each have weight 40; Ascension Stone has weight 20.
 
 Extra equipment: `10%` chance, with 80% Magic / 20% Rare quality; another `20%` chance for that item to generate Cursed.
 
@@ -42,8 +42,9 @@ Independent currency chances:
 - Edict Stone `0.5%`
 - Sealed Gem `0.5%`
 - Infusion Gem `0.5%`
+- Infused Gem pool `0.5%`
 
-Ultra-rare pool: `0.3%` total trigger chance, with the same 40/40/40/40/40/20 weights as T3.
+Ultra-rare pool: `0.3%` total trigger chance, with the same six weight-40 entries and one weight-20 Ascension Stone entry as T3.
 
 Extra equipment: `20%` chance, with 50% Magic / 50% Rare quality; another `20%` chance for that item to generate Cursed.
 
@@ -64,15 +65,18 @@ Independent currency chances:
 - Edict Stone `1.5%`
 - Sealed Gem `1.5%`
 - Infusion Gem `1.5%`
+- Infused Gem pool `1.5%`
 - Ascension Stone `0.5%`
 
-Ultra-rare pool: `0.3%` total trigger chance, with the same 40/40/40/40/40/20 weights.
+Ultra-rare pool: `0.3%` total trigger chance, with the same six weight-40 entries and one weight-20 Ascension Stone entry.
+
+Every Infused Gem pool success selects one of Infused Obsidian, Amethyst, Lapis Lazuli, or Ruby equally.
 
 Extra equipment: `35%` chance, with 95% Rare / 5% Legendary quality; another `20%` chance for that item to generate Cursed.
 
 ## Extra Weapon Rewards
 
-Some chests can contain one additional Runeforged weapon selected for that chest. It can become a mod weapon, Rune-Cursed Weapon, or an item with a Sealed Affix, and uses the chest tier's quality rules.
+Some chests can contain one additional Runeforged weapon selected for that chest. It can become a mod weapon, Rune-Cursed Weapon, an item with a Sealed Affix, or—when not Rune-Cursed—an item with one of the four Infused Gems, and uses the chest tier's quality rules.
 
 ## Villager Currency Trades
 
@@ -115,4 +119,4 @@ Affixable equipment obtained from merchants generates with these weights:
 - 27% Rare
 - 3% Legendary
 
-Merchant weapons may become mod weapon families and can receive Cursed, Alien, or Sealed properties.
+Merchant weapons may become mod weapon families and can receive Cursed, Alien, or Sealed properties. Eligible generated merchant equipment also uses the `1%` total Infused Gem chance, but villagers and wandering traders do not sell the four finished gems directly.

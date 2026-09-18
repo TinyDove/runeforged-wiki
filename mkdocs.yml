@@ -55,6 +55,7 @@ plugins:
             Equipment: 装备系统
             Equipment Quality & Affixes: 品质与词条
             Equipment Currency: 装备通货
+            Infused Gems: 注灵宝石改造
             Equipment Material Upgrade: 装备材质升阶
             Infusion: 灌注系统
             Cursed Equipment: 诅咒系统
@@ -112,6 +113,7 @@ nav:
   - Equipment:
       - Equipment Quality & Affixes: equipment/quality-and-affixes.md
       - Equipment Currency: equipment/currency-workflow.md
+      - Infused Gems: equipment/infused-gems.md
       - Equipment Material Upgrade: equipment/material-upgrade.md
       - Infusion: equipment/infusion.md
       - Cursed Equipment: equipment/curses.md

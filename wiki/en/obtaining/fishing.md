@@ -27,9 +27,10 @@ This reward cannot trigger outside open water.
 | Celestial Fragment | 2.5 |
 | Sealed Gem | 2.5 |
 | Infusion Gem | 2.5 |
+| Infused Gem pool | 2.5 |
 | Ascension Stone | 1 |
 
-These are relative weights, not percentages; servers can change both the pool and overall multiplier.
+These are relative weights, not percentages; servers can change both the pool and overall multiplier. An Infused Gem pool result selects one of Infused Obsidian, Amethyst, Lapis Lazuli, or Ruby equally.
 
 ## Weapon Rewards
 
@@ -38,3 +39,4 @@ Weapons are selected equally from Iron Sword, Iron Axe, Iron Rapier, Iron Dagger
 - A Rare weapon generates Rare quality and matching regular affixes.
 - An Alien Iron weapon is obtained directly as Alien equipment.
 - Either has a `1%` chance to become Rune-Cursed and may also become a special weapon variant or carry one Sealed Affix.
+- When the result is not Rune-Cursed, it also has a separate `1%` total chance to carry one of the four Infused Gems.

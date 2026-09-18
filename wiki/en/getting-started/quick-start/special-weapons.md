@@ -2,7 +2,7 @@
 
 ## Rune-Cursed Weapons
 
-A blank weapon and specified Rune Stones or gems craft one of eight Rune-Cursed archetypes. Each archetype restricts eligible weapon families and supplies fixed-value affixes, fixed-Tier affixes, and one additional random affix.
+A blank weapon and specified Rune Stones or gems craft one of eight Rune-Cursed archetypes. Each archetype restricts eligible weapon families and supplies fixed-value affixes, fixed-Tier affixes, and one random affix. A Celestial Foundation or Military recipe produces two random affixes in total; the other Celestial archetypes retain one. Their exact fixed and random-affix results are listed separately for every archetype in the full page.
 
 Rune-Cursed Weapons are Cursed equipment and cannot use ordinary forging or enchanting. Bloodthirst and Nature have their own repeatable Alienation or Infusion rules.
 

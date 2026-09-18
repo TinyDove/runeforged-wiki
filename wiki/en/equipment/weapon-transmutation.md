@@ -14,9 +14,11 @@ Runeforged has seven Transmutations: Heavy, Sharp, Pure, Order, Mystery, Origin,
 | Sealed Gem | Weapon | Reforging Stone | Origin |
 | Infusion Gem | Weapon | Reforging Stone | Triad |
 
-The base must be one affixable, non-Cursed weapon. Applying the same Transmutation produces no result; another Transmutation is replaced directly.
+The base must be one affixable, non-Cursed weapon without an Infused Gem modification. Applying the same Transmutation produces no result; another Transmutation is replaced directly.
 
 To remove a Transmutation, place a Reforging Stone in both the template and addition slots and the transmuted weapon in the base slot. Its quality and regular affixes are unaffected.
+
+Applying an [Infused Gem](infused-gems.md) removes an existing Transmutation. The weapon cannot receive another Transmutation while the gem remains; Reforging removes the gem and makes Transmutation available again.
 
 ## Effects
 

@@ -47,7 +47,15 @@ An old quality of 5 or lower therefore produces `30–50`; an old quality of 25 
 
 ## Affix Count
 
-When Add Regular Affixes is selected, it attempts to add a random `1–5` compatible affixes. The final number depends on remaining space and the available affix pool. Regular and curse-area affixes can total up to `8`, or up to `7` when the item retains a separate Legendary Affix.
+When Add Regular Affixes is selected, it attempts to add a random `1–5` compatible affixes. The final number depends on remaining space and the available affix pool. Alienation preserves an existing Infused Gem and uses its modified regular-affix capacity.
+
+Regular and curse-area affixes can therefore total:
+
+| Gem state | Without a separate Legendary Affix | With a separate Legendary Affix |
+| --- | ---: | ---: |
+| No Infused Gem | 8 | 7 |
+| Infused Obsidian | 9 | 8 |
+| Infused Amethyst, Lapis Lazuli, or Ruby | 7 | 6 |
 
 ## Weapon T0 Affixes
 
