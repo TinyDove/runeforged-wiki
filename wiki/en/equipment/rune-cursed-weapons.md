@@ -13,6 +13,12 @@ Rune-Cursed Weapons use a `3×3` recipe. The two route layouts are:
 
 Every route also accepts the matching Celestial currency in the same layout. All currency items in one recipe must be either ordinary or Celestial; the two versions cannot be mixed.
 
+### Celestial Rune-Cursed Weapons
+
+Celestial Rune-Cursed Weapons use the matching Celestial currency. The result has Cursed quality, Celestial glint, and a Celestial name prefix. Each archetype uses the Celestial fixed parameters listed below.
+
+Celestial Foundation and Military weapons have two random affixes; the other Celestial archetypes have one. Every random affix is generated from T3 / T2 / T1.
+
 ## Blank Weapon
 
 The center item must be an affixable Common weapon with no enchantments or stored enchantments. A Common weapon carrying only a Sealed fixed affix is still blank. A weapon carrying an [Infused Gem](infused-gems.md) is not eligible. Full durability is not required; the result is fully repaired.
@@ -32,7 +38,7 @@ The center item must be an affixable Common weapon with no enchantments or store
 
 ## Archetype Parameters
 
-Ordinary and Celestial results are Cursed. Tiered affixes roll a value inside the listed Tier.
+Fixed Tier affixes roll a value inside the listed Tier.
 
 ### Foundation
 
@@ -40,7 +46,7 @@ Ordinary and Celestial results are Cursed. Tiered affixes roll a value inside th
 | --- | --- | --- |
 | Fixed values | Physical Damage `+2`; Physical Damage `+10%` | Physical Damage `+2`; Physical Damage `+10%` |
 | Fixed Tiers | Physical Damage T2; Physical Damage % T3; Max Durability T3 | Physical Damage T1; Physical Damage % T1; Max Durability T2 |
-| Random affixes | One T3 / T2 / T1 | One T2 / T1 / regular T0 when available; plus one T3 / T2 / T1 |
+| Random affixes | One T3 / T2 / T1 | Two T3 / T2 / T1 |
 
 ### Military
 
@@ -50,7 +56,7 @@ Main damage is selected from Physical, Fire, Frost, Lightning, or Holy Damage. T
 | --- | --- | --- |
 | Fixed values | Single-Wield Damage `+20%`; Dash Attack Damage `+20%` | Single-Wield Damage `+20%`; Dash Attack Damage `+20%` |
 | Fixed Tiers | Main Damage T2; matching Damage % T3; Critical Strike Chance T3 | Main Damage T1; matching Damage % T2; Critical Strike Chance T2 |
-| Random affixes | One T3 / T2 / T1 | One T2 / T1 / regular T0 when available; plus one T3 / T2 / T1 |
+| Random affixes | One T3 / T2 / T1 | Two T3 / T2 / T1 |
 
 ### Molten
 
@@ -58,7 +64,7 @@ Main damage is selected from Physical, Fire, Frost, Lightning, or Holy Damage. T
 | --- | --- | --- |
 | Fixed values | `50%` Physical converted to Fire; Attack Range `+0.5` | `50%` Physical converted to Fire; Attack Range `+0.5` |
 | Fixed Tiers | Fire Damage T2; Elemental Damage % T3; Fire Compound Damage T3; Knockback Distance T3 | Fire Damage T1; Elemental Damage % T2; Fire Compound Damage T1; Knockback Distance T2 |
-| Random affixes | One T3 / T2 / T1 | One T2 / T1 / regular T0 when available |
+| Random affixes | One T3 / T2 / T1 | One T3 / T2 / T1 |
 
 ### Purification
 
@@ -66,7 +72,7 @@ Main damage is selected from Physical, Fire, Frost, Lightning, or Holy Damage. T
 | --- | --- | --- |
 | Fixed values | `50%` Physical converted to Holy; On-Kill Heal `+2` | `50%` Physical converted to Holy; On-Kill Heal `+2` |
 | Fixed Tiers | Holy Damage T2; Elemental Damage % T3; Undead Slayer T3; Blessing of the Sun T3 | Holy Damage T1; Elemental Damage % T2; Undead Slayer T2; Blessing of the Sun T1 |
-| Random affixes | One T3 / T2 / T1 | One T2 / T1 / regular T0 when available |
+| Random affixes | One T3 / T2 / T1 | One T3 / T2 / T1 |
 
 ### Resonance
 
@@ -76,7 +82,7 @@ The two flat-damage elements come from opposite groups: Fire/Frost and Lightning
 | --- | --- | --- |
 | Fixed values | Elemental Damage `+20%`; one Physical-to-element conversion `20%` | Elemental Damage `+20%`; one Physical-to-element conversion `20%` |
 | Fixed Tiers | Two elemental flat-damage affixes T3; other conversion T3; Elemental Damage % T2 | Two elemental flat-damage affixes T2; other conversion T2; Elemental Damage % T1 |
-| Random affixes | One T3 / T2 / T1 | One T2 / T1 / regular T0 when available |
+| Random affixes | One T3 / T2 / T1 | One T3 / T2 / T1 |
 
 ### Bloodthirst
 
@@ -84,7 +90,7 @@ The two flat-damage elements come from opposite groups: Fire/Frost and Lightning
 | --- | --- | --- |
 | Fixed values | Critical Strike Chance `+25%`; Critical Strike Damage `+50%` | Critical Strike Chance `+25%`; Critical Strike Damage `+50%` |
 | Fixed Tiers | Random elemental flat damage T3; Critical Strike Chance T2; random Undead/Human/Giant Slayer T3; Attack Speed T3 | Random elemental flat damage T2; Critical Strike Chance T1; random Undead/Human/Giant Slayer T2; Attack Speed T2 |
-| Random affixes | One T3 / T2 / T1 | One T2 / T1 / regular T0 when available |
+| Random affixes | One T3 / T2 / T1 | One T3 / T2 / T1 |
 | Alienations | 2 | 2 |
 
 Each successful Alienation consumes one use. The remaining count appears on the item.
@@ -97,7 +103,7 @@ The main element is selected from Frost and Lightning.
 | --- | --- | --- |
 | Fixed values | `50%` Physical converted to the main element; main-element Damage `+25%` | `50%` Physical converted to the main element; main-element Damage `+25%` |
 | Fixed Tiers | Main-element Compound Damage T2; main-element flat Damage T3; Elemental Resistance Penetration T3; Armor Penetration T3 | Main-element Compound Damage T2; main-element flat Damage T2; Elemental Resistance Penetration T2; Armor Penetration T2 |
-| Random affixes | One T3 / T2 / T1 | One T2 / T1 / regular T0 when available |
+| Random affixes | One T3 / T2 / T1 | One T3 / T2 / T1 |
 | Sealed affix | One maximum-roll main-element flat Damage T2 | One maximum-roll main-element flat Damage T2 |
 
 ### Nature
@@ -108,7 +114,7 @@ The active element cycles Fire → Frost → Lightning after each attack.
 | --- | --- | --- |
 | Fixed values | `50%` Physical converted to the active element; Attack Speed `+15%` | `50%` Physical converted to the active element; Attack Speed `+15%` |
 | Fixed Tiers | Elemental Damage % T2; Physical Damage T3; Physical Compound Damage T3; Attack Range T3 | Elemental Damage % T1; Physical Damage T2; Physical Compound Damage T2; Attack Range T2 |
-| Random affixes | One T3 / T2 / T1 | One T2 / T1 / regular T0 when available |
+| Random affixes | One T3 / T2 / T1 | One T3 / T2 / T1 |
 | Infusion affix | One T2; type selected once, value rolled three times with the best kept | One T2; type selected once, value rolled three times with the best kept |
 
 Nature weapons can continue accumulating Infusion, reroll at `100%`, or use an Infusion Gem directly.
